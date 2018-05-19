@@ -11,4 +11,6 @@ Of particular use is the OS images, and the "oh-utils", and documents.
 
 More info on Odrobian - https://forum.odroid.com/viewtopic.php?t=18771
 
-To do - Looking for a way to include the xz image files (github limit 25Mb with web uploader)
+# Odrobian OS Images
+
+Due to github filesize limits, images have been split in a .rar container, and you will therefore need to use rar software in order to obtain the orginal .xz file.
