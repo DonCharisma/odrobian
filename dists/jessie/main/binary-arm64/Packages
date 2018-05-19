@@ -1,0 +1,354 @@
+Package: advanced-mate-menu
+Version: 1.0-2
+Architecture: all
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 140
+Depends: python-xlib | python-xdg
+Provides: advanced-mate-menu
+Filename: pool/main/a/advanced-mate-menu/advanced-mate-menu_1.0-2_all.deb
+Size: 195246
+MD5sum: 22f89b49dc4bd04bad9b6ae45377e792
+SHA1: 15307674d117c2ec9a769a092e1da6190714a2db
+SHA256: 2c15c4d51b4dcc87dbae8f85e36d5e0ae00cc687d9ec067b5c00985de51c236f
+Section: GNOME
+Priority: extra
+Description: Advanced MATE Menu compiled specifically for Odrobian distribution.
+
+Package: cec-utils
+Source: libcec
+Version: 3.1.0-1~jessie
+Architecture: arm64
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Installed-Size: 152
+Depends: libcec3 (= 3.1.0-1~jessie), libc6 (>= 2.17), libgcc1 (>= 1:4.7), libncurses5 (>= 5.5-5~), libp8-platform2, libstdc++6 (>= 4.4.0), libtinfo5
+Filename: pool/main/libc/libcec/cec-utils_3.1.0-1~jessie_arm64.deb
+Size: 56882
+MD5sum: 53677223ad5049e9f0830dbeba5f2eaf
+SHA1: 926f2bbc6b5fdbfa8edfc9c17ffdd518d5d0540b
+SHA256: 96e8241882a57b0815e11622b2bfb8d48d6a186b48225983735df62edec9c4ac
+Section: utils
+Priority: optional
+Homepage: http://libcec.pulse-eight.com/
+Description: libCEC communication Library (utility programs)
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+ .
+ This package provides the CEC utility programs.
+
+Package: emulationstation-odrobian-fbdev
+Version: 2.0.1a-2~jessie
+Architecture: arm64
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Depends: libasound2 (>= 1.0.16), libboost-date-time1.55.0, libboost-filesystem1.55.0, libboost-locale1.55.0, libboost-system1.55.0, libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libfreeimage3, libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libice6 (>= 1:1.0.0), libsdl2-odrobian-fbdev, libsm6, libstdc++6 (>= 4.9)
+Provides: emulationstation-odrobian-fbdev
+Filename: pool/main/e/emulationstation/emulationstation-odrobian-fbdev_2.0.1a-1~jessie_arm64.deb
+Size: 930944
+MD5sum: af9bb60b22ddb37efd3b31d3dbdb0fb9
+SHA1: 17b355285628b90189866f83eb288b3d8b085f91
+SHA256: 361cffe5e79895be17786365dc3dcf4cce500d41ef05d55cd4a027cef1ef67c5
+Section: games
+Priority: extra
+Description: EmulationStation front-end for Odrobian Gaming Platform
+ EmulatorStation for Odrobian RetroGaming
+ A graphical and themeable emulator front-end that allows you to access all your favorite games in one place, even without a keyboard!
+
+Package: kodi-pvr-tvheadend-hts
+Source: kodi-pvr-hts
+Version: 2.2.5+jarvis-1~jessie
+Architecture: all
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 21
+Depends: kodi-pvr-hts (= 2.2.5+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-hts/kodi-pvr-tvheadend-hts_2.2.5+jarvis-1~jessie_all.deb
+Size: 2140
+MD5sum: ff9a37b03916f405917459efb603a05b
+SHA1: eb0d69d3633a1adca6e8914b051390ba995b0ff0
+SHA256: 469080227521d76d2bdcfb8d085c6fad4885977ce591af0251781a9e582cdf2e
+Section: oldlibs
+Priority: extra
+Description: transitional dummy package
+  This is a transitional dummy package. It can safely be removed.
+
+Package: libcec
+Version: 3.1.0-1~jessie
+Architecture: arm64
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Installed-Size: 52
+Depends: libcec3 (= 3.1.0-1~jessie)
+Filename: pool/main/libc/libcec/libcec_3.1.0-1~jessie_arm64.deb
+Size: 28614
+MD5sum: 44e78cc9b11b0098e34b73de82d5f071
+SHA1: 7275bf4fa7eee6dfd7d5e4bbb923e709f5ad5636
+SHA256: 4ea1c9d7e6ed9ccb64209f038465769c8eacdf6498d7c7eced8b7a42b1674835
+Section: libs
+Priority: optional
+Homepage: http://libcec.pulse-eight.com/
+Description: Meta package libCEC.
+
+Package: libcec-dev
+Source: libcec
+Version: 3.1.0-1~jessie
+Architecture: arm64
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Installed-Size: 167
+Depends: libcec3 (= 3.1.0-1~jessie)
+Filename: pool/main/libc/libcec/libcec-dev_3.1.0-1~jessie_arm64.deb
+Size: 45524
+MD5sum: aaa2e0126233dd8b02f8d26e23dc3f2b
+SHA1: 154ec7b9bb0f716c601b1d2c917af879ddeab5e6
+SHA256: c096060bbd5fbbddd8a19a1d4c63aa1127d8f5f97d807bcbfb146935390f9951
+Section: libdevel
+Priority: optional
+Homepage: http://libcec.pulse-eight.com/
+Description: libCEC communication Library (development files)
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+ .
+ This package provides the necessary files needed for development.
+
+Package: libcec-odrobian
+Version: 3.1.0-1
+Architecture: arm64
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Depends: libcec (= 3.1.0-1~jessie), cec-utils (= 3.1.0-1~jessie), libp8-platform2
+Provides: libcec-odrobian
+Filename: pool/main/libc/libcec-odrobian/libcec-odrobian_3.1.0-1_arm64.deb
+Size: 30292
+MD5sum: e423dea6e21bdb1790a379267d64f8a0
+SHA1: 45896f08074ecd61f0dc9e99bab8dd4be755d918
+SHA256: a90cb26377021903844ffafc0df3b38781c7aed6635bd0bbf7f49a0d2130241c
+Section: libs
+Priority: extra
+Description: Pulse-Eight CEC for ODROIDs running on Odrobian
+ Pulse-Eight CEC for ODROIDs running on Odrobian
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+
+Package: libcec3
+Source: libcec
+Version: 3.1.0-1~jessie
+Architecture: arm64
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Installed-Size: 694
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.7), libp8-platform2, libstdc++6 (>= 4.1.1), libudev1 (>= 183), libx11-6, libxrandr2 (>= 2:1.2.99.2)
+Conflicts: libcec (<< 2.2), libcec1, libcec2
+Replaces: libcec (<< 2.2), libcec1, libcec2
+Provides: libcec, libcec1, libcec2
+Filename: pool/main/libc/libcec/libcec3_3.1.0-1~jessie_arm64.deb
+Size: 188916
+MD5sum: e3fdd0d4618b2194c20174f68f167906
+SHA1: 15e74529f7298692c82555c4bcb9c9fe7935b326
+SHA256: 3d60e359d59cb3dff4c8843d1ad6bc2de7fd54f4bf5ef62a247bdf2f8d58c1f3
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://libcec.pulse-eight.com/
+Description: libCEC communication Library (shared library)
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+ .
+ This package provides the shared library.
+
+Package: libkodiplatform-dev
+Source: kodiplatform
+Version: 17.0.0-1~jessie
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 60
+Depends: libkodiplatform17 (= 17.0.0-1~jessie), libtinyxml-dev, libp8-platform-dev
+Provides: libkodiplatform-dev
+Filename: pool/main/k/kodi-platform/libkodiplatform-dev_17.0.0-1~jessie_arm64.deb
+Size: 5210
+MD5sum: 30e2e6632b23732a2b04197d8b11e4d5
+SHA1: 643c7c3182fa1260d9525cb13a2a299873d72806
+SHA256: c217c038370dba30cc70fa946aed0d1f5553c766ba3927c952fc9d4a49140cf1
+Section: libdevel
+Priority: extra
+Multi-Arch: same
+Description: Kodi platform support library -- development files
+ Kodi platform support library
+
+Package: libkodiplatform17
+Source: kodiplatform
+Version: 17.0.0-1~jessie
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 55
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.7), libp8-platform2, libstdc++6 (>= 4.9), libtinyxml2.6.2
+Provides: libkodiplatform
+Filename: pool/main/k/kodi-platform/libkodiplatform17_17.0.0-1~jessie_arm64.deb
+Size: 10376
+MD5sum: 654d2542e8c8d869269a97023a1fd4d3
+SHA1: 60479a4932f4db8c782b16b2fa44e6526b8ec976
+SHA256: 007aa1071f6651a57ee1949f274ce0666e9c17e91bc2b6d6be98dc088bf5635e
+Section: libs
+Priority: extra
+Multi-Arch: same
+Description: Kodi platform support library
+ Kodi platform support library
+
+Package: libsdl2-fbdev-dev
+Source: libsdl2
+Version: 2.0.4-1~jessie
+Architecture: arm64
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Installed-Size: 4009
+Depends: libsdl2-odrobian-fbdev (= 2.0.4-1~jessie), libc6-dev, libgl1-mesa-dev
+Conflicts: libsdl-1.3-dev, libsdl2-dev
+Replaces: libsdl-1.3-dev, libsdl2-dev
+Provides: libsdl2-dev
+Filename: pool/main/libs/libsdl2/libsdl2-fbdev-dev_2.0.4-1~jessie_arm64.deb
+Size: 1103362
+MD5sum: 298754a25ebd6239a4806d3e49900b00
+SHA1: 8a34928b2c4d54d598911e4ab8a751d71818f3c3
+SHA256: 425fc573bdf7b81a4514ba524e8219e23dd19e4e91f0037b3a520ba88020fd70
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.libsdl.org/
+Description: Simple DirectMedia Layer development files
+ SDL is a library that allows programs portable low level access to a video
+ framebuffer, audio output, mouse, and keyboard.
+ .
+ This package contains files needed if you wish to use the SDL library in your own programs.
+
+Package: libsdl2-odrobian-fbdev
+Version: 2.0.4-1~jessie
+Architecture: arm64
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Installed-Size: 847
+Pre-Depends: multiarch-support
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.17), libpulse0 (>= 0.99.1), libudev1, libdbus-1-3, mali-fbdev
+Conflicts: libsdl-1.3-0, libsdl2-2.0-0
+Replaces: libsdl-1.3-0, libsdl2-2.0-0
+Provides: libsdl2-2.0-0
+Filename: pool/main/libs/libsdl2/libsdl2-odrobian-fbdev_2.0.4-1~jessie_arm64.deb
+Size: 246816
+MD5sum: 816240e0b69d395a09257a3381256afa
+SHA1: 8f6746595adae7e47eb87089ea327d203e506cba
+SHA256: c4eca9644179c66f81addf89ddb9260411008238439afc3e15f9a7f12e0443ab
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.libsdl.org/
+Description: Simple DirectMedia Layer
+ SDL is a library that allows programs portable low level access to
+ a video framebuffer, audio output, mouse, and keyboard.
+ .
+ This package contains the shared library, compiled with X11 graphics drivers and OSS, ALSA and PulseAudio sound drivers.
+
+Package: libshairplay
+Version: 1.0-1~jessie
+Architecture: arm64
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 904
+Provides: libshairplay
+Filename: pool/main/libs/libshairplay/libshairplay_1.0-1~jessie_arm64.deb
+Size: 167646
+MD5sum: 9e000724b1239331bb78a066d227248f
+SHA1: 5ef46155464971d8c616fb5f53cd0590cace8ee5
+SHA256: 3dae05c9cfa74b161f15ebb00f31a13670827104761075130400429aab9f8e72
+Section: video
+Priority: extra
+Description: libshairplay is a client library that emulates an airplay server
+
+Package: moonlight-embedded
+Version: 2.1.4-1~jessie
+Architecture: arm64
+Maintainer: Iwan Timmer <irtimmer@gmail.com>
+Installed-Size: 326
+Depends: aml-libs, libasound2 (>= 1.0.16), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.17), libcurl3 (>= 7.16.2), libenet7, libevdev2 (>= 0.9.1), libexpat1 (>= 2.0.1), libopus0 (>= 1.1), libpulse0 (>= 0.99.1), libssl1.0.0 (>= 1.0.0), libudev1 (>= 183), libuuid1 (>= 2.16)
+Recommends: alsa-base
+Suggests: alsa-utils
+Filename: pool/main/m/moonlight-embedded/moonlight-embedded_2.1.4-1~jessie_arm64.deb
+Size: 88540
+MD5sum: ae2d15b52d373cee027a49338b7418c4
+SHA1: c257edc078b6bf62633cb35fe494be412abb7d79
+SHA256: bf7ae5b3b50bb8b3c030defcade12cf4e9ce695dd470970d0718d8653a7b66f2
+Section: games
+Priority: extra
+Homepage: https://github.com/irtimmer/moonlight-embedded
+Description: GameStream client for Linux
+ Game streaming client for Nvidia's GameStream.
+ Stream games from your Windows computer with Nvidia graphic card to your linux box.
+
+Package: python-libcec
+Source: libcec
+Version: 3.1.0-1~jessie
+Architecture: arm64
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Installed-Size: 541
+Depends: libcec3 (= 3.1.0-1~jessie)
+Filename: pool/main/libc/libcec/python-libcec_3.1.0-1~jessie_arm64.deb
+Size: 114014
+MD5sum: f7f41977820902ca3c4c18d8a6d0878a
+SHA1: 3e222002b17e54dfe7cc4b47dfd47abc57ebf8dc
+SHA256: a06a4f673c188a0aa833d0ac1118dfcc3cb6ed96811dbe75f080326d53977476
+Section: python
+Priority: optional
+Homepage: http://libcec.pulse-eight.com/
+Description: Python bindings for libCEC
+ This library provides Python bindings for libCEC.
+ .
+ This package provides Python bindings for libCEC.
+
+Package: python-menu-odrobian
+Source: mate-menu
+Version: 5.6.8-1
+Architecture: all
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 592
+Depends: dconf-gsettings-backend | gsettings-backend, python (>= 2.7), python (<< 2.8), python-pkg-resources, python-xlib, python-xdg
+Filename: pool/main/p/python-menu-odrobian/python-menu-odrobian_5.6.8-1_all.deb
+Size: 52076
+MD5sum: 885a1aa40e3e44760b0d6dc362865589
+SHA1: d0d911c757b7b95a5a71d953f14d6698663c9ad2
+SHA256: 762e658e78bdd250500bf8141d94fcabd9f2bf925aaaa4197d3eb21073b8d3e4
+Section: python
+Priority: optional
+Description: An advanced menu for MATE. Supports filtering, favorites, au
+
+Package: retroarch-odrobian-fbdev
+Version: 1.3.1-1~jessie
+Architecture: arm64
+Maintainer: Hunter Kaller (hizzlekizzle) <hunter_kaller@yahoo.com>
+Installed-Size: 1765
+Depends: libasound2 (>= 1.0.18), libass5 (>= 0.10.2), libc6 (>= 2.17), libdrm2 (>= 2.4.17), libfreetype6 (>= 2.2.1), libgbm1 (>= 8.1~0), libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libpython3.4 (>= 3.4.2~rc1), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.16), libxcb1, libxkbcommon0 (>= 0.2.0), zlib1g (>= 1:1.1.4), fonts-dejavu-core, python3, mali-fbdev, libsdl2-odrobian-fbdev
+Suggests: retroarch-joypad-autoconfig, libretro-common-shaders, libretro-common-overlays, retroarch-assets
+Replaces: ssnes
+Filename: pool/main/r/retroarch/retroarch-odrobian-fbdev_1.3.1-1~jessie_arm64.deb
+Size: 563430
+MD5sum: 1a7522b7e0ee03bec8703d118e8ce3c2
+SHA1: cb9a6da03085b3281ecd7d987fd8e0d4836ea36a
+SHA256: 1cc9fa69bed08b6b934f4200cbafea9b88c04723f5bdaf0f84affac49dff6540
+Section: otherosfs
+Priority: extra
+Homepage: http://www.libretro.com/
+Description: Simple frontend for the libretro library
+ RetroArch is an open source, multi-platform frontend for the libretro API.
+ It can be used as a modular multi emulator system, game engine, media player
+ and 3D technical demonstration. These features are available through
+ libretro cores.
+ .
+ It provides a simple built-in GUI, the RGUI.
+
+Package: tsconf
+Source: tslib
+Version: 1.0-12~jessie
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 50
+Replaces: libts-0.0-0 (<= 1.0-6)
+Filename: pool/main/libt/libts/tsconf_1.0-12~jessie_all.deb
+Size: 14666
+MD5sum: a4aeb03d39c865adfadaf3553b95661c
+SHA1: 84a1fb5cc71529f212238a989fbe485289d83beb
+SHA256: a951caeb7a305d86fb9eb998f10e7bf215fcfdcd9ba4eaf55e68e545d051192b
+Section: embedded
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://tslib.berlios.de/
+Description: touch screen library common files
+ Tslib is an abstraction layer for touchscreen panel events, as well
+ as a filter stack for the manipulation of those events.
+ .
+ This package contains the common files for the shared
+ library.
+
