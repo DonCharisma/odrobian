@@ -1,0 +1,29 @@
+========================================
+	ODROID CPU Control (OCC)	
+========================================
+
+cpuctrl [options]
+
+Options:
+ -l, --list                      List a parameter
+ -s, --set                       Set a parameter
+ -g, --governor <governor>       Select a governor
+                                 (interactive conservative ondemand powersave performance )
+ -c, --cpu <number|range>        The CPU to edit/query. Leave blank for all CPUs. Valid syntax:
+                                 0; 0,4; 0,4,5-7; 0-7
+ -m, --min <number>              The minimum CPU frequency (must be supported by governor and CPU)
+ -M, --max <number>              The maximum CPU frequency (must be supported by governor and CPU)
+ -f, --frequency                 The current CPU frequency
+ -t, --temperature               The current CPU temperature
+ -q, --quiet                     Don't display much output when setting a parameter
+ -i, --interactive <number>      Keep running the list command every number seconds
+ -h, --help                      Show this help screen
+ 
+Examples:
+ cpuctrl -l                                   Lists current frequency/governor for all cores
+ cpuctrl -l -t                                Shows current temperature for all cores
+ cpuctrl -l -g -f                             Lists just governor and current frequency for all cores
+ cpuctrl -l -c 0,4                            Lists all information only for cores 0 and 4
+ cpuctrl -l -c 0-4                            Lists all information for cores 0 to 4
+ cpuctrl -s -g performance -m 300M -M 600M    Sets governor, minimum and maximum frequency for all cores
+ cpuctrl -s -M 1.2G -c 0,4                    Sets maximum frequency on cores 0 and 4

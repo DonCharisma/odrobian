@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Docker for ODROBIAN</title>
+</head>
+<body>
+
+<h1>Docker for ODROBIAN</h1>
+
+<p>One of our main goals set for ODROBIAN is to prepare a Debian environment to run Docker perfectly and benefit even more from ODROIDs, simplifying the whole expereince in the process and make it easier for everybody.</p>
+
+<h3>What is Docker?</h3>
+
+<p>Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries - anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in.</p>
+
+<h3>Getting Started</h3>
+
+<p>Docker is already available for you on ODROBIAN through our repository compiled specifically for Debian Jessie, you can install it simply on any edition:</p>
+
+<ul type="disc">
+<li> Desktop (MATE)
+<li> Vanilla (PURE)
+</ul>
+<p>You may want to prefer the Vanilla edition particularly for Docker which is a very minimal Debian environment that will run perfectly for development and servers, otherwsie you can get the Desktop edition if you are after simplicity.</p>
+
+<h5>Installation</h5>
+Well, in both cases all you have to do:
+
+<pre>
+<code>
+	Make sure you are ROOT:
+	odroid:$ sudo -s
+
+	Installation:
+	odroid:# apt-get update
+	odroid:# apt-get install docker-odrobian
+</code></pre>
+
+<h5>Add User "odroid" to Docker Group</h5>
+Now, by default docker will only work with ROOT privelleges, this is not a problem for our Vanilla edition as it's already supposed to be used with it. However, if you are using the MATE edition (or the latter) through the main regular "odroid" user, just add it to the "docker" group.
+
+<pre>
+<code>
+	Add "odroid" user to Docker group:
+	odroid:# usermod -aG docker odroid
+</code>
+</pre>
+
+<p>This way you can perform actions through Docker without using "sudo" command</p>
+
+<h5>Test Docker</h5>
+This is how you can confirm that Docker is installed and working as expected:
+
+<pre>
+<code>
+	odroid:$ docker info
+	odroid:$ docker -v
+</code>
+</pre>
+
+<p>Both commands should return feasible information.</p>
+
+<h3>Image Containers</h3>
+<p>Docker is now supporting ARMv7 image containers, you can easily pull (Debian, Ubuntu, Arch Linux, etc) directly from their repository, you can even run multiple Linux environments with differenct sessions through your ODROID working at the same time.</p>
+
+<h5>Examples</h5>
+Let me put you in the right road if you are a new user, here how you can pull the most famous Linux distributions through docker:
+
+ <pre>
+ <code>
+	Debian:
+	odroid:$ docker pull armhf/debian
+
+	Ubuntu:
+	odroid:$ docker pull armhf/ubuntu
+
+	Arch Linux:
+	odroid:$ docker pull armv7/armhf-archlinux
+</code></pre>
+
+<h5>Find More Images</h5>
+Are you looking for even more, here's how you can find the ARMv7 compatible image containers on Docker:
+
+ <pre>
+ <code>
+	Search Docker Repository:
+	odroid:$ docker search armhf-
+
+	Pull Image:
+	odroid:$ docker pull *
+
+	(*) = Name of Image
+</code></pre>
+
+<h5>Run Images</h5>
+Finally, get to run the image containers and confirm they are working properly:
+
+ <pre>
+ <code>
+	Run "armhf/debian" for example:
+	odroid:$ docker run armhf/debian /bin/echo 'Hello world'
+
+	Run Bash:
+	odroid:$ docker run -i -t * /bin/bash
+
+	(*) = Name of Image
+</code>
+</pre>
+
+<h3>Save/Load Containers</h3>
+<p>Produces a tarred repository to the standard output stream. Contains all parent layers, all tags and versions. It is used to create a backup that can then be used with "docker load" command.
+
+<h5>Save</h5>
+Here's how you can save an image into a ".tar" archive as backup:
+
+ <pre>
+ <code>
+	Save "armhf/debian" for example:
+	odroid:$ docker save armhf/debian > debian.tar
+</code></pre>
+
+<h5>Load</h5>
+Here's how you can load an image from a ".tar" archive:
+
+ <pre>
+ <code>
+	Load Debian image from previous example:
+	odroid:$ docker load --input debian.tar
+</code>
+</pre>
+
+<p>Loads a tarred repository from a file or the standard input stream. Restores both images and tags.</p>
+
+<h2>Other directories</h2>
+
+<table border="0" summary="Other directories">
+<tr><td><a href="http://oph.mdrjr.net/odrobian/">index</a></td><td style="padding-left:15px;">Homepage.</td></tr>
+<tr><td><a href="http://oph.mdrjr.net/odrobian/doc/#README">doc</a></td><td style="padding-left:15px;">Documentation.</td></tr>
+</table>
+
+</body>
+</html>

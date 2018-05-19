@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Chromium Browser</title>
+</head>
+<body>
+
+<h1>Web Browser Experience</h1>
+
+<p>Chromium Browser is a main application on ODROBIAN desktop images and it's boasted with the GLshim 1.5 wrapper on "s805" while the native EGL 3D acceleration supporting WebGL should already be configured on "5422" by default however, you can still get same thing on the former.</p>
+
+<h3>Native 3D EGL Acceleration</h3>
+
+<p>If you want full EGL 3D acceleration with WebGL you should add this flag "--use-gl=egl" to the default configuration file.</p>
+
+<pre>
+<code>	odroid:$ sudo pluma /etc/chromium-browser/default</code>
+</pre>
+
+<p>Specifically, for "s805" I would recommend creating and mounting a swap memory like zRAM if you decide to do heavy browsing especially with hardware accelerations or watching videos in-browser, overclocking will help but as far as I know you should definitely use KODI for anything higher than 480p.</p>
+<p>Obviously, that's not the case for "5422" as you will already be able to watch HTML5 videos (ex. YouTube) right into your browser up-to 720p (and some 1080p) without any issues except that they are software coded which will consume a lot of CPU power producing much heat, that's why I would still recommend using Kodi for MFC accelerated video decoding.<p/>
+
+<h3>Pepper Flash Player</h3>
+
+<p>I have created a deb package for the latest version (19.0.0.185-r1) of pepper flash, just install it.</p>
+
+<pre>
+<code>
+	odroid:$ sudo apt-get install libflashplayer
+</code>
+</pre>
+ 
+ <div>Then, put two required flash flags to chromium default configuration file, do not delete other flags just put them between the quotes beside the others.</div>
+
+ <pre>
+ <code>
+	odroid:$ sudo pluma /etc/chromium-browser/default
+	CHROMIUM_FLAGS=" --ppapi-flash-path=/usr/lib/PepperFlash/libpepflashplayer.so --ppapi-flash-version=19.0.0.185"
+</code></pre>
+
+<p>I noticed that software video playback in chromium with EGL acceleration is much better using the flash player for YouTube as an example (or any other site using flash) than the HTML5 player which is heavy on CPU and can't even decode 480p on "s805" in-browser. If you want to set the flash player as default you could install a chromium plugin called "Disable Youtube™ HTML5 Player" which can go up-to 1080p on "5422" and 480p on "s805.</p>
+
+<h2>Other directories</h2>
+
+<table border="0" summary="Other directories">
+<tr><td><a href="http://oph.mdrjr.net/odrobian/">index</a></td><td style="padding-left:15px;">Homepage.</td></tr>
+<tr><td><a href="http://oph.mdrjr.net/odrobian/doc/#README">doc</a></td><td style="padding-left:15px;">Documentation.</td></tr>
+</table>
+
+</body>
+</html>

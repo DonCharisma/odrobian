@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>ODROID CPU Clocking</title>
+</head>
+<body>
+
+<h1>ODROID CPU Clocking</h1>
+
+<p>Since each ODROID has its own SOC, we should document this in sections.</p>
+
+<h3>Requirements</h3>
+
+<p>You should have ODROBIAN-hook utilities installed in the first place to be able to follow this guide.</p>
+
+<pre>
+<code>
+	ODROBIAN-hook Utilities
+	odroid:$ sudo -s
+	odroid:# apt-get update && apt-get install oh-utils
+</code>
+</pre>
+
+<h3>Show CPU Information</h3>
+
+<p>You should have simple commands and scripts to show current CPU clock and temperature installed by default.</p>
+
+<pre>
+<code>
+	odroid:$ sudo -s
+	odroid:# oh --cpuinfo (Show information about current CPU frequency and temperature)
+	odroid:# oh --cpu-stock (Revert back to default settings)
+	
+	*stock for s805 (A5: 1.5GHz - Governor: performance)
+	*stock for s905 (A53: 2.0GHz - Governor: performance)
+	*stock for 5422 (A7: 1.4GHz & A15: 2.0GHz - Governor: ondemand)
+</code>
+</pre>
+
+<h3>Set CPU Governors</h3>
+
+<p>Once again, it's also possible to set CPU governor on any ODROID platform.</p>
+
+<pre>
+<code>
+	odroid:$ sudo -s
+	odroid:# oh --gov=X
+	
+	(X) = Anything You Choose
+	*performance (always highest frequency)
+	*ondemand (based on usage)
+	*interactive (more customizable)
+	*conservative (good for portable applications)
+	*powersave (lowest frequency as possible)
+</code>
+</pre>
+
+<h3>CPU Clocking (s805-ONLY)</h3>
+
+<p>You can set your CPU clock rate in a range from 300MHz to 2.0GHz using simple commands, observing your C1's behavior reacting to different clock rates is a great way to optimize your applications for certain projects, also in the other hand you may wish to make use of all the power possible out from your device.</p>
+
+<h5>Overclocking</h5>
+<p>Anything above 1.8GHz please use active cooling (at your own risk), in my case I am running at 2.0 stable with the same cooler used on XU4 and fan connector hooked to the 5v GPIO pins.</p>
+
+<pre>
+<code>
+	odroid:$ sudo -s
+	odroid:# oh --oc=X
+	
+	(X) = Anything You Choose
+	*boast (1.7GHz)
+	*med (1.8GHz)
+	*high (1.9GHz)
+	*turbo (2.0GHz)
+</code>
+</pre>
+
+<h5>Underclocking</h5>
+
+<p>A great way to avoid unnecessary heat and power usage for many projects and also as hint If you are facing heating issues while watching movies for a long time using Kodi media player you should consider the fair option as it won't affect video decoding performance.</p>
+
+<pre>
+<code>
+	odroid:$ sudo -s
+	odroid:# oh --uc=X
+	
+	(X) = Anything You Choose
+	*pathetic (300MHz)
+	*poor (500MHz)
+	*lame (800MHz)
+	*fair (1.0GHz)
+</code>
+</pre>
+ 
+<h3>CPU Clocking (5422-ONLY)</h3>
+
+<p>You can set your CPU clock rate in a range from 300MHz to 2.0GHz using simple commands, observing your C1's behavior reacting to different clock rates is a great way to optimize your applications for certain projects, also in the other hand you may wish to make use of all the power possible out from your device.</p>
+<h5>Underclocking</h5>
+
+<p>A great way to avoid unnecessary heat and power usage for many projects and also as hint If you are facing heating issues while watching movies for a long time using Kodi media player you should consider the fair option as it won't affect video decoding performance.</p>
+
+<pre>
+<code>
+	odroid:$ sudo -s
+	odroid:# oh --uc=X
+	
+	(X) = Anything You Choose
+	*pathetic (A7: 400MHz & A15: 800GHz)
+	*poor (A7: 500MHz & A15: 1.0GHz)
+	*lame (A7: 800MHz & A15: 1.2GHz)
+	*fair (A7: 1.0GHz & A15: 1.5GHz)
+</code>
+</pre>
+
+<p>Please note that these options will basically set a limit for CPU as the highest possible scaling frequency while governors will decide how they are handled between your chosen boundaries. If you are going to install passive cooling I would recommend the fair option with the ondemand governor, you can customize your own settings based on your observations.</p>
+
+<h3>Advanced CPU Control (All ODROIDs)</h3>
+ 
+<p>If you want to have full control over your CPU functions, you should try the ODROID CPU Control (OCC) utility which is a universal tool developed by @mad_ady that enables advanced customization abilities for CPU covering its clock rate, governors, minimum/maximum frequencies and much more. First of all, this is an optional tool that can be installed directly from our repository so, if the overclock/underclock options available on odrobian by default ain't enough for you then you should absolutely install this.</p>
+
+ <pre>
+ <code>
+	Installation:
+	odroid:$ sudo apt-get install odroid-cpu-control
+
+	Usage/Command:
+	odroid:$ sudo -s
+	odroid:# cpuctrl
+</code>
+</pre>
+
+<p>Here's some examples on <a href="http://oph.mdrjr.net/odrobian/doc/examples/odroid-cpu-control.txt">how to use OCC utility</a>.</p>
+
+<h3>Default Clock Rate</h3>
+
+<p>To permanently set your desired CPU clock rate just add your chosen command to the /etc/rc.local file before the last line which contains something like "exit 0" so it can be automatically executed during the boot process.</p>
+
+<pre>
+<code>
+	odroid:$ sudo pluma /etc/rc.local
+</code>
+</pre>
+
+<h2>Other directories</h2>
+
+<table border="0" summary="Other directories">
+<tr><td><a href="http://oph.mdrjr.net/odrobian/">index</a></td><td style="padding-left:15px;">Homepage.</td></tr>
+<tr><td><a href="http://oph.mdrjr.net/odrobian/doc/#README">doc</a></td><td style="padding-left:15px;">Documentation.</td></tr>
+</table>
+
+</body>
+</html>

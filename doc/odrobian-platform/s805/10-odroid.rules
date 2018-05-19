@@ -1,0 +1,8 @@
+KERNEL=="CEC", MODE="0660", GROUP="video"
+KERNEL=="mali*", MODE="0660", GROUP="video"
+KERNEL=="am*", MODE="0660", GROUP="video"
+KERNEL=="ump", MODE="0660", GROUP="video"
+KERNEL=="drm", MODE="0660", GROUP="video"
+KERNEL=="ge2d", MODE="0660", GROUP="video"
+KERNEL=="brightness", MODE="0660", GROUP="video"
+KERNEL=="ttySAC0", SYMLINK+="ttyACM99"

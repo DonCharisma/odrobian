@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>CLI Tool - insta-ORGA</title>
+</head>
+<body>
+
+<h1 id="README">CLI Tool "insta-ORGA"</h1>
+
+<p>What's here?</p>
+
+<h3>Installation</h3>
+
+<p>It's all done simply through "insta-ORGA" command line tool. First, you have to do this before running this utility and it's very important, make sure you have the latest version everytime.</p>
+
+<pre>
+<code>
+	odroid:$ sudo -s
+	odroid:# apt-get update && apt-get install io-cli
+</code>
+</pre>
+
+Now, go ahead and check it out through:
+
+<pre>
+<code>
+	odroid:# insta-ORGA --help
+</code>
+</pre>
+
+Which is the same material you can find in this example <a href="http://oph.mdrjr.net/odrobian/doc/examples/insta-ORGA.txt">here</a>. So, if you want to install with my default settings optimized for your specific ODROID platform you should definitely install the whole thing with either this or that.
+
+<pre>
+<code>
+	Automatic Installation:
+	odroid:# insta-ORGA --defaults
+	odroid:# insta-ORGA --enable-autostart
+
+	Install ORGA-X11:
+	odroid:# insta-ORGA --mali=x11 --kodi=true --sound=pulse --lightdm=true
+
+	Install ORGA-Fbdev:
+	odroid:# insta-ORGA --mali=fbdev --kodi=true --sound=alsa --lightdm=false
+
+	Customization Wizard:
+	odroid:# insta-ORGA (No Flags)
+
+	Defaults = "Our recommended default settings for your current platform with Mali-X11"
+	Autostart = "Auto-Booting to EmulationStation directly"
+</code>
+</pre>
+
+<p>Do not bother forcing ALSA over pulse if you are using the X11 version, I have prepared my scripts to automatically decide when to use ALSA for emulation and when to prefer PULSE for desktop use. It seems that ODROID XU4 can't give sound properly from Kodi while ALSA is activated however, don't worry it will enable required optimizations for it by default!</p>
+
+<h3>ODROBIAN "insta-ORGA" Utility</h3>
+
+<p>After using it to install your ORGA Entertainment system you can benefit more from this, even if you are a regular ODROBIAN user.</p>
+
+<h5>Enable/Disable Lightdm</h5>
+
+<pre><code>
+	odroid:# insta-ORGA --lightdm=true
+	odroid:# insta-ORGA --lightdm=false
+</code>
+</pre>
+
+<h5>Upgrade Cores/Emulators/Software</h5>
+
+<pre><code>
+	odroid:# insta-ORGA --upgrade
+</code>
+</pre>
+
+<h5>Update/Restore Emulation Configs</h5>
+
+<pre><code>
+	odroid:# insta-ORGA --update-cfg
+</code>
+</pre>
+
+<h5>Autostart EmulationStation</h5>
+
+<pre><code>
+	odroid:# insta-ORGA --enable-autostart
+</code>
+</pre>
+
+<h5>Revert Autostart Back to Default</h5>
+
+<pre><code>
+	odroid:# insta-ORGA --disable-autostart
+</code>
+</pre>
+
+<h5>Completely Remove Kodi</h5>
+
+<pre><code>
+	odroid:# insta-ORGA --kodi=false
+</code>
+</pre>
+
+<h5>Force ALSA (Completely Remove Pulse)</h5>
+
+<pre><code>
+	odroid:# insta-ORGA --sound=alsa
+</code>
+</pre>
+
+<h5>Get Pulse Back in Service (Associated with ALSA)</h5>
+
+<pre><code>
+	odroid:# insta-ORGA --sound=pulse
+</code>
+</pre>
+
+<h5>Switch World (From ORGA X11 to ORGA Fbdev)</h5>
+
+<pre><code>
+	odroid:# insta-ORGA --mali=fbdev --kodi=true --sound=alsa --lightdm=false
+</code>
+</pre>
+
+<h5>Switch World (From ORGA Fbdev to ORGA X11)</h5>
+
+<pre><code>
+	odroid:# insta-ORGA --mali=x11 --kodi=true --sound=pulse --lightdm=true
+</code>
+</pre>
+
+ORGA is currently available for the "s805" and "5422" platforms.
+
+<h2>Other directories</h2>
+
+<table border="0" summary="Other directories">
+<tr><td><li><a href="http://oph.mdrjr.net/odrobian/">index</a></td><td style="padding-left:15px;">Homepage.</td></tr>
+<tr><td><li><a href="http://oph.mdrjr.net/odrobian/doc/#README">doc</a></td><td style="padding-left:15px;">Documentation.</td></tr>
+</table>
+
+</body>
+</html>

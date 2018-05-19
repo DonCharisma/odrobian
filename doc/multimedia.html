@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Multimedia & Kodi</title>
+</head>
+<body>
+
+<h1>Multimedia & Kodi</h1>
+
+<p>Kodi is running super smooth and stable on Debian Jessie, I have tested YouTube add-on and it's working fine with no issues, I have compiled it with extra optimizations CPU flags along with MFC/AML-Codec support, everything is working fine and live streams work really great.</p>
+
+<h3>Watching Video Streams</h3>
+
+<p>There is a tool integrated in the repository as well which is youtube-dl that you can use to watch (or download) videos directly taking the link from the browser which is faster sometimes than using the youtube add-on in Kodi. You can run Kodi from command line as well anytime when you want to play video or live streams which comes in handy while your surfing the web, and by the way, there is an add-on for chromium-browser (Video DownloadHelper) which gives you the link of any video embedded in your browser session which is very useful to have.</p>
+
+<pre>
+<code>
+	Installation:
+	odroid:$ sudo apt-get install youtube-odrobian
+
+	Usage/Command:
+	odroid:$ youtube-dl -g -f 22 "YOUTUBE-URL"  (-f 22 for HD)
+	
+	*youtube-dl -g -f 22 (720p)
+	*youtube-dl -g -f 18 (360p)
+	*This will give you a video stream link, copy it.
+	
+	odroid:$ kodi "ANY-VIDEO-STREAM-LINK"
+</code>
+</pre>
+
+<p>If this tool suddenly stops working for you, and it's giving you errors while trying to pull something from YouTube servers, then it's meaning that protocol currently used isn't working any more. In this case, you have to update the tool through:
+
+<pre>
+<code>
+	odroid:$ sudo youtube-dl -U
+</code>
+</pre>
+
+<p>Anyways, you will already be able to watch HTML5 videos (ex. YouTube) right into your browser up-to 720p (and some 1080p) on "5422" without any issues except that they are software coded which will consume a lot of CPU power producing much heat, that's why I would still recommend using Kodi for MFC accelerated video decoding.</p>
+
+<h3>Download YouTube Videos</h3>
+
+<p>YouTube doesn't provide the streaming link for 1080p/480p videos anymore, the only way to watch one is by creating it with the included tool again then using Kodi as a player. Although, I don't recommend writing such huge files to the SD card because it could tear faster, I would suggest using an HDD for such a solution.</p>
+
+<pre>
+<code>
+	odroid:$ youtube-dl -f 137+141 "YOUTUBE-URL" (for Full HD videos)
+
+	*youtube-dl -f 137+141 (1080p) - Requires FFmpeg to create
+	*youtube-dl -f 22 (720p) - No FFmpeg required
+	*youtube-dl -f 135+140 (480p) - Requires FFmpeg to create
+	*youtube-dl -f 18 (360p) - No FFmpeg required
+	*This will create a 1080p video on your home directory
+
+	odroid:$ kodi "NAME-OF-VIDEO"
+</code>
+</pre>
+ 
+<p>Check above options If you're interested in downloading other qualities, please note that you would also need ffmpeg (which will be provided as an optional package) specifically to create 1080p & 480p videos because they are not provided by youtube regularly.</p>
+
+<h3>Configure IR Remote with LIRC</h3>
+<p>Instantly configure LIRC for both OS/Kodi with the IR Remote sold in Hardkernel stores.</p>
+
+<pre>
+<code>
+	odroid:$ sudo -s
+	odroid:# apt-get update
+	odroid:# apt-get install s805-lirc
+	odroid:# service lirc start
+</code>
+</pre>
+
+<p>This package depends on "lirc" provided on official Debian repository, it will get your IR Remote from HardKernel to work directly on the system itself and inside Kodi as well. Just in case, if you download and extract the package you should know how it's implemented for education, it's only that Debian will use slightly different configuration than Ubuntu.</p>
+
+<h3>Auto-Start Kodi after Booting</h3>
+
+<p>Here's how to make odrobian auto-start Kodi similar to OpenELEC, open up a terminal inside the desktop (Ctrl + Alt + T):</p>
+
+<pre>
+<code>
+	odroid:$ sudo pluma /etc/lightdm/lightdm.conf
+</code>
+</pre>
+
+<p>Select all the text inside the file (Ctrl + A) and replace it with this:</p>
+
+<pre>
+<code>
+	[SeatDefaults]
+	autologin-user=odroid
+	autologin-user-timeout=0
+</code>
+</pre>
+
+<p>Then navigate to (Menu > Log Out) and click on the small icon that looks like a "gear" located at top-right then choose to log into a Kodi session, after that restart your board and it will always auto-login into the session that you were running at last (in this case it will always be Kodi). Dynamically, you can exit Kodi and log into an X desktop session again anytime you wish to benefit from the Debian desktop experience which is a great point, if you wish you can also choose to auto-start the MATE desktop instead using this way.<p/>
+
+<h2>Other directories</h2>
+
+<table border="0" summary="Other directories">
+<tr><td><a href="http://oph.mdrjr.net/odrobian/">index</a></td><td style="padding-left:15px;">Homepage.</td></tr>
+<tr><td><a href="http://oph.mdrjr.net/odrobian/doc/#README">doc</a></td><td style="padding-left:15px;">Documentation.</td></tr>
+</table>
+
+</body>
+</html>

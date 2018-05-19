@@ -1,0 +1,80 @@
+==================================================
+	ODROBIAN 1.X for 5422 - Changelog
+==================================================
+
+This change log will be updated right after testing and evaluating an image so please give feedback and suggestions to improve the next release with more updates, optimizations and fixes so then I can release a new image again. Also, I will always announce my progress for the upcoming releases here:
+
+Odrobian 1.2 (FINAL) - Stable Release
+-This release is integrated perfectly with our repository so you will receive updates remotely.
+-HardKernel vivid repository is no longer used as we're relying on our own one optimized for ODROIDs running under Debian Jessie.
+-Installed an Odrobian Platform deb package now that contains our custom scripts and mods to be updated.
+-HardKernel ODROID Platform deb package is now merged with our Odrobian Platform package.
+-The boot.ini file and other 5422 specific scripts required on boot are installed as a deb package to be updated.
+-Xorg armsoc driver is now installed as a deb package to be updated from repository as well.
+-SSH host keys regeneration is now done only once during the First Boot process instead of (rc.local) booting up.
+-This image is now uploaded on the repository server hosted by @mdrjr as a direct link thankfully.
+-More are coming on the way through the repository.
+
+Starting from this point, here's how you can receive updates with simple commands same as the official HardKernel distribution:
+
+    odroid:$ sudo apt-get update
+    odroid:$ sudo apt-get upgrade (Latest software optimized for ODROIDs)
+    odroid:$ sudo apt-get dist-upgrade (Latest odrobian kernel and bootloader)
+
+
+If you have Odrobian 1.1 and don't want to re-download, there's a way for how to upgrade to Odrobian 1.2 FINAL, open up a terminal window (Ctrl + T):
+
+    odroid:$ sudo su
+    odroid:# rm /etc/apt/sources.list.d/odroid.list
+    odroid:# wget http://oph.mdrjr.net/odrobian/sources.list/odrobian-main-5422.list
+    odroid:# mv odrobian-main-5422.list /etc/apt/sources.list.d/
+    odroid:# wget -O- http://oph.mdrjr.net/odrobian/public-key.asc | apt-key add -
+    odroid:# apt-get update && apt-get upgrade
+    odroid:# apt-get remove kodi-odrobian-5422
+    odroid:# apt-get install odrobian-platform-5422 bootini xserver-xorg-video-armsoc-5422 glshim-lbs kodi-odrobian-5422
+    odroid:# reboot
+
+
+Our Repository Reference: http://oph.mdrjr.net/odrobian/
+
+Odrobian 1.1
+-This release is currently optimized to be integrated with a repo and I will ask @mdrjr for it.
+-Kernel is updated to latest build from git (3.10.92+) which includes many optimizations and fixes.
+-Automatic filesystem resize (First Boot Setup screen) by @HardKernel.
+-Underclocking for passive & lower power consumption projects.
+-Chromium browser is updated to version 45.0.2454.101-0ubuntu0.15.04.1.1183 with security fixes.
+-Linux Kernel is installed as a deb package so it can be updated easily.
+-Adapted boot partition with kernel upgrading mechanism and it's now mounted on /media/boot same as official image.
+-Kernel modules are stripped & installed as a deb package as a part of the kernel package.
+-Basic Firmware Linux drivers are installed by default from official Debian servers as deb packages.
+-Advanced MATE Main Menu (a fork of MINT Menu) is installed as a deb package by default.
+-Kodi is recompiled again as latest release 15.2 (stable) FINAL with optimizations.
+-GLshim is reinstalled as a deb package on a proper path /usr/lib/glshim/gl-lbs/* by ldconfig.
+-SSH host keys is regenerated on boot for better networking capability.
+-Preventing SSH terminal client from staying open during shutdown by @Fourdee.
+-Initrd and uInitrd are now generated automatically with the kernel installation.
+-Updating through initramfs-tools is now working perfectly.
+-Added a hook in initramfs-tools to create & copy compressed uInitrd-$version image to /media/boot/uInitrd when updating.
+-Mali-X11 drivers are now installed as a deb package and is upgradeable through integrated HardKernel repo.
+-Booting to rootfs is changed from /dev/mmcblk0 to UUID instead so it doesn't conflict with (SD or eMMC) boot switch.
+-Got rid of the broken kernel-headers package and a proper one will be provided with our repository launch.
+-Other minor fixes done noticed while working on the latter things.
+
+*Hopefully, at this point, we'll start pushing updates through a dedicated repository, so please give more criticism* :D
+
+Odrobian 1.0
+-Dramatic performance increase over the beta.
+-Compiled latest unmodified kernel from @mdrjr repo (Oct 16, 2015).
+-Used Mali-X11 r5p1 binaries by @mdrjr (stable & optimized GPU performance).
+-Compiled Kodi 15.2 (Isengard) by @owersun as deb package with more optimizations (very smooth playback).
+-Compiled GLshim (libGL) 1.5 library.
+-Kernel headers & modules are now installed as deb packages.
+-Compiled glmark2-es2 and installed it as a deb package.
+-Compiled CEC 3.0 with exynos support as an optional deb package.
+-Removed some unnecessary packages and cache files.
+-Other minor optimizations.
+
+Odrobian Beta
+-Modified kernel by @memeka.
+-Used Mali-X11 r6p0 drivers (after testing, kernel integration with G3D block isn't stable).
+-Compiled Kodi 14.2 Helix by @owersun.

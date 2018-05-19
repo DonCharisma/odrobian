@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Start Gaming on ORGA</title>
+</head>
+<body>
+
+<h1>Start Gaming on ORGA</h1>
+
+<p>You should have your emulation system directory at your main home folder "/home/odroid/RetroGaming/" which is where you will put your stuff. The GUI will start automatically for you on ORGA for X11 however, If you are using ORGA for Fbdev with disabled GUI, you can switch to TTY3 (Ctrl + Alt + F3) and then temporarily use X11 to arrange and configure your stuff:</p>
+
+<pre>
+<code>
+	odroid:$ startx
+</code>
+</pre>
+
+<h3>Prepare Your ROMs & BIOS files</h3>
+
+<p>If you have a BIOS file for PCSX (PS1) emulation as an example or anything else then put them directly inside the "~/RetroGaming/BIOS/" folder and they will be automatically detected, when it comes to game ROMs, we currently have these emulators located at "~/RetroGaming/roms" by default running as RetroArch cores, although we will be adding more very soon.</p>
+
+<h3>Run EmulationStation</h3>
+<p>Here's how you can run EmulationStation manually if you haven't already set it up to <a href="http://oph.mdrjr.net/odrobian/doc/orga/introduction.html">start automatically</a>.</p>
+
+<h5>ORGA for X11</h5>
+<p>Navigate to ( Menua > All Applications > Games > EmulationStation ) as simple as this.
+
+<h5>ORGA for Fbdev</h5>
+<p>As I told you before, currently we are on the console that I specified for X11 which is TTY3, you can switch back to TTY1 anytime you like to start your emulationstation front end, so just click (Ctrl + Alt + F1) and run this command:</p>
+
+<pre>
+<code>
+	odroid:$ emulationstation
+</code></pre>
+
+<h5>I personally played:</h5>
+<ul type="disc">
+<li>Crash Bandicot (Play Station 1) - Maximum (60 FPS)</li>
+<li>Super Mario 64 (Nintendo 64) - Maximum (60 FPS)</li>
+<li>Sega MasterSystem - Maximum (60 FPS)</li>
+<li>Sega MegaDrive - Maximum (60 FPS)</li>
+<li>Sega Genesis - Maximum (60 FPS)</li>
+<li>GameBoy - Maximum (60 FPS)</li>
+<li>Atari2600 - Maximum (60 FPS)</li>
+<li>Atari7800 - Maximum (60 FPS)</li>
+<li>Atari Jaguar - Maximum (60 FPS)</li>
+<li>Atari Lynx - Maximum (60 FPS)</li>
+<li>NES - Maximum (60 FPS)</li>
+<li>SNES - Maximum (60 FPS)</li>
+</ul>
+ 
+<p>After adding roms to the default folder of your desired emulator as shown the previous step, it should automatically show up on your screen however, KODI media center is already pre-configured for you by default if you are not planning to play any games yet, please note that EmulationStation will first ask you to configure your joy-pad (you can use your attached keyboard if you want) for those of you aiming at multimedia usage.</p>
+
+<h2>Other directories</h2>
+
+<table border="0" summary="Other directories">
+<tr><td><a href="http://oph.mdrjr.net/odrobian/">index</a></td><td style="padding-left:15px;">Homepage.</td></tr>
+<tr><td><a href="http://oph.mdrjr.net/odrobian/doc/#README">doc</a></td><td style="padding-left:15px;">Documentation.</td></tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+=================================================
+	ODROBIAN 2.X for s805 - Changelog
+=================================================
+
+Claiming to represent a perfectly working Debian system for ODROIDs with the least issues possible.
+
+--- Repository Integration:
+
+    A major change in the repository and system structure.
+    A new repository branch called "odroid" which has packages for any Debian/Ubuntu based system.
+    Fixed a major issue which resulted into a broken system after "dist-upgrade" on odrobian 1.2.
+    Fixed some missing dependencies on many packages.
+    Apt source lists are available for you to use on other distributions.
+    Download folder now has "md5sum" files of all images.
+    KODI Jarvis for X11/FBDEV packages are now available.
+    KODI PVR Addons on repository are now updated to support Jarvis.
+    TV Headend package is now updated with a better version by @runnerway.
+    Many other new packages and updates available.
+
+--- Kernel Changes:
+
+    A new kernel "3.10.96-30-odrobian+" with my changes and new improvements from HardKernel.
+    Support for WiiU adapter from Mayflash for ODROID C.
+    Added support for Edimax EW-7811UTC (rtl8812au) USB dongle.
+    Fixed the CEC freeze bug by @Brian.K.
+    Added disable automatic TV ON function on HDMI-CEC (kernel) by @Brian.K.
+    Enable HDMI-CEC feature on LG TV.
+    Realtek 8812AU Drivers (incl. TP-Link Archer T4U)
+    Some other changes and improvements undocumented.
+	
+--- Both Flavours:
+
+    Built from scratch based on a pure "Debian 8.3" root filesystem.
+    Boot partition size is increased to 128MB similar to official image.
+    First boot screen which shows an image is now just a couple of lines on default console.
+    Packages are upgraded to latest versions from Debian official repositories and ODROBIAN repository.
+    Linux firmware packages "firmware-linux" & "firmware-realtek" are installed by default.
+    Fixed chromium browser not being assigned with repository version on 1.2 version.
+    Fixed issues resulting from installation of KODI on a minimal image.
+    Fixed Ethernet interface being recognized as "eth1" instead of "eth0" producing many issues.
+    ODROBIAN scripts of "odrobian-platform" package is now asking for root permissions upon execution.
+    Much more clean and well maintained with my experience after using ODROIDs for months.
+    Package "bootini" installed is now configured with UHS disabled by default.
+    Removed the note indicating the need to mod hardware to get CEC.
+    A lot of minor issues solved and fixes discovered while using odrobian 1.2 for too long.
+    Many other updates are yet to come remotely from the repository.
+
+--- Desktop (MATE):
+
+    Default Rootfs partition actual size now is 1.6GB out of 2.0GB specified.
+    Chromium Browser v48 is installed by default from our repository.
+    KODI 16 Jarvis is installed by default from our repository.
+    A default lightweight E-mail client "Geary" application with multi-accounts support.
+    VIM is now a default application.
+    Packages "XTerm"and "UXTerm" are now installed by default for better compatibility.
+    Advanced MATE Menu is improved with a new version.
+    Chromium Browser now has a welcome screen for first use by default.
+    It has new features and many new packages installed yet is more lightweight.
+    Removed more useless packages and executed much better cleaning process for dummy files.
+    The default MATE theme is now called "ODROBIAN".
+
+--- Vanilla (PURE):
+
+    Default Rootfs partition actual size is 300MB out of 320MB specified.
+    Automatic network settings are configured by default with DHCP.
+    Fixed filesystem corruption in the bootloaded parition.
+    Host name is set to "odroid" same as the desktop version.
+    The custom sudo user "odroid" is added to legit groups like "audio" & "video" by default.

@@ -1,0 +1,35 @@
+===========================================
+	Entertainment System (ORGA)	
+===========================================
+
+Run with '--help' flag for more information.
+
+Usage: insta-ORGA --FLAGS
+
+You should configure your ORGA installation with flags:
+    --defaults      Install ORGA with default settings automatically.
+    --mali=x11      Enable Mali-GPU desktop acceleration for X11. (default)
+    --mali=fbdev    Enable Mali-GPU acceleration for Direct FrameBuffer device.
+    --kodi=false    exclude Kodi media center from ORGA.
+    --kodi=true     Include Kodi media center to ORGA. (default)
+    --sound=alsa    Option to force ALSA sound driver.
+    --sound=pulse   Option to keep PULSE sound driver. (default)
+    --lightdm=false Manually start GUI for Desktop Environment.
+    --lightdm=true  Auto-Start GUI with lightdm. (default)
+    --help          Show help and information.
+
+Utility:
+    --upgrade           Keep ORGA up-to-date with emulation software.
+    --update-cfg        Restore/update configs for all emulation applications.
+    --enable-autostart  Autostart Emulationstation directly after booting.
+    --disable-autostart Revert autostart back to default.
+
+Examples:
+    insta-ORGA --mali=x11 --kodi=true --sound=pulse --lightdm=true
+    insta-ORGA --mali=fbdev --kodi=true --sound=alsa --lightdm=false
+    insta-ORGA --update-cfg
+    insta-ORGA --enable-autostart
+
+Automatic:
+    insta-ORGA --defaults
+    insta-ORGA (No Flags - Run Customization Wizard)

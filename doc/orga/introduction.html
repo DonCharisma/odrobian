@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>ORGA Entertainment System</title>
+</head>
+<body>
+
+<h1>Introduction</h1>
+
+<p>ORGA Entertainment System is currently available for "s805" and "5422" platforms supporting both Mali-X11/Fbdev drivers.</p>
+
+<h3>What is ORGA Entertainment System?</h3>
+<p>Odrobian RetroGaming Arcade (ORGA) is basically an entertainment system supporting hardware acceleration for Multimedia, Gaming, Browsing, etc.</p>
+<ul type="disc">
+<li>Desktop X11 Mali-GPU drivers (most functional multimedia experience based on MATE with multitasking)
+<li>Direct Frame Buffer Mali-GPU drivers (highest GPU performance possible with best CPU efficiency)</li>
+</ul>
+
+<p>I have prepared specifically for retro emulation and multimedia with KODI for Media Centers using EmulationStaton as the main front end, all based on the beloved software combination that is well known and was first introduced by RetroPie with these formulas:</p>
+
+<p><b>ORGA-X11</b> = (<u>Mali-GPU-X11 + GLES-X11</u>) * (<u>RetroArch-X11 + KODI-X11 + EmulationStation-X11</u>) / (<u>Dedicated X11 GUI</u>)</p>
+
+<p><b>ORGA-Fbdev</b> = (<u>Mali-GPU-Fbdev + SDL2-Fbdev</u>) * (<u>RetroArch-Fbdev + KODI-Fbdev + EmulationStation-Fbdev</u>) / (<u>Handy X11 GUI</u>)</p>
+
+<h5>ORGA for X11</h5>
+<ul type="disk">
+<li>Easy-to-use and very user friendly.</li>
+<li>Will not affect MATE desktop nature.</li>
+<li>Lots of customization.</li>
+<li>Universal (currently works on all ODROIDs perfectly).</li>
+</ul>
+
+<h5>ORGA for Fbdev</h5>
+<ul type="disk">
+<li>Maximum performance.</li>
+<li>Built specifically to benefit the most out of Retrogaming.</li>
+<li>Not working as expected on "5422" platforms.
+</ul>
+
+<h3>Getting Started</h3>
+
+<p>This is originally based on our main (OJ - MATE) distribution with a simple command that will convert the whole thing into this ORGA entertainment system, so first step is downloading ODROBIAN Jessie image for your current ODROID platform, you actually need to download the MATE edition then, after flashing and booting successfully, just open up a terminal (<u>Ctrl + Alt + T</u>):</p>
+
+<pre>
+<code>
+	odroid:$ sudo -s
+	odroid:# apt-get update && apt-get install io-cli
+	This will basically upgrade Odrobian Platform to pull latest "insta-ORGA" utility.
+
+	odroid:# insta-ORGA --defaults
+	This will convert your system to RetroGaming Arcade with default recommended settings for your particular ODROID platform.
+	
+	odroid:# reboot
+</code>
+</pre>
+
+<p>Default recommended settings are mainly based on Mali-X11 so either this or customize your installation by following the instructions documented for the <a href="http://oph.mdrjr.net/odrobian/doc/orga/insta-ORGA.html">insta-ORGA</a> utility. After that, wait till your ODROID reboot, I strongly recommend that you can upgrade the kernel now:</p>
+
+<pre>
+<code>
+	odroid:$ sudo apt-get dist-upgrade
+</code>
+</pre>
+
+<p>You should do this instantly after converting the image to receive new kernels which should have less issues, please note that you should already have the latest regular software & packages updated automatically during "insta-ORGA" command.<p/>
+
+<h3>Auto-Start EmulationStation</h3>
+
+<p>To auto-start EmulationStation directly after boot process for both ORGA X11/Fbdev on all platforms just do this.</p>
+
+<pre>
+<code>
+	odroid:$ sudo insta-ORGA --enable-autostart
+</code>
+</pre>
+
+One important note, I have included workaround for the annoying background console text by when choosing to autostart emulationstation for ORGA Fbdev, and included many optimizations as well for the ORGA X11 autostart scripts. In fact, You can also revert back to default manual setting whenever you wish!</p>
+
+<pre>
+<code>
+	odroid:$ sudo insta-ORGA --disable-autostart
+</code>
+</pre>
+
+<h3>Default Login User</h3>
+
+<p>Always log with the default "odroid" user and not the root, or else you will end up breaking a lot of things if you you're not sure about what you're doing:</p>
+
+<pre>
+<code>
+	Username: odroid
+	Password: odroid
+</code>
+</pre>
+
+<p>So, forget about the root user and keep using "sudo" for your permission needs.</p>
+
+<h2>Other directories</h2>
+
+<table border="0" summary="Other directories">
+<tr><td><a href="http://oph.mdrjr.net/odrobian/">index</a></td><td style="padding-left:15px;">Homepage.</td></tr>
+<tr><td><a href="http://oph.mdrjr.net/odrobian/doc/#README">doc</a></td><td style="padding-left:15px;">Documentation.</td></tr>
+</table>
+
+</body>
+</html>
