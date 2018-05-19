@@ -23,6 +23,6 @@ And, of course, thanks to the original maintainer and helpers, for providing Odr
 
 # PS
 
-/pool/main/c/chromium-browser-odrobian/chromium-browser-odrobian-l10n_48.0.2564.82-0ubuntu0.15.04.1.1193_all.deb
+/pool/main/c/chromium-browser-odrobian/chromium-browser-odrobian_48.0.2564.82-0ubuntu0.15.04.1.1193_armhf.deb
 
 The above file also had to be split with rar
