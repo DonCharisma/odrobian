@@ -1,7 +1,7 @@
 # odrobian
 Save of Odroid Odrobian repository from WayBackMachine
 
-Please note I won't be updating or maintaining this repository, if you want that then please feel free to fork, or create your own.
+Disclaimer - Please note I won't be updating or maintaining this repository, if you want that then please feel free to fork, or create your own. I won't be able to answer any questions either, as I'm neither the maintainer, or an expert on any of this.
 
 Why ? I have two Odroid C1 boards, recently went to update software and discovered Odroid had deleted this repository, presumably because C1 is now "old" and they don't want to support it anymore. It appears also that the Odrobian package maintainer has "disapeared".
 
