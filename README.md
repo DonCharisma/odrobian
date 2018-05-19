@@ -10,3 +10,5 @@ I, and I imagine some others may want to use this software, so I have retrieved 
 Of particular use is the OS images, and the "oh-utils", and documents.
 
 More info on Odrobian - https://forum.odroid.com/viewtopic.php?t=18771
+
+To do - Looking for a way to include the xz image files (github limit 25Mb with web uploader)
