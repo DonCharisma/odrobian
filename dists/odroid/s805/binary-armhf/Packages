@@ -1,0 +1,347 @@
+Package: kodi-fbdev-trusty
+Version: 16.0-FINAL-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 50900
+Depends: libasound2 (>= 1.0.27), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbluetooth3 (>= 4.91), libbz2-1.0, libc6 (>= 2.17), libcap2 (>= 1:2.10), libcdio13 (>= 0.83), libdbus-1-3 (>= 1.0.2), libdrm2 (>= 2.4.16), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.4.0), libgcrypt20 (>= 1.6.0), libgmp10, libgnutls28, libgpg-error0, libhogweed2, libjasper1, libjpeg-turbo8, liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, libmicrohttpd10 (>= 0.9.20), libmysqlclient18 (>= 5.5.24+dfsg-1), libnettle4, libogg0 (>= 1.0rc3), libp11-kit0 (>= 0.2), libpcre3, libpcrecpp0 (>= 7.7), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.4), libpython2.7 (>= 2.7), libsmbclient (>= 2:4.0.3+dfsg1), libsqlite3-0 (>= 3.6.11), libssh-4 (>= 0.6.1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.9), libtag1c2a (>= 1.8), libtag1c2a (>= 1.4), libtasn1-6, libtiff5 (>= 4.0.3), libtinyxml2.6.2, libudev1 (>= 183), libva-x11-1 (>= 1.0.3), libva1 (>= 1.0.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx11-6, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxml2 (>= 2.7.4), libxrandr2, libxslt1.1 (>= 1.1.25), libyajl2 (>= 2.0.4), zlib1g (>= 1:1.2.0.2), libcurl3-gnutls, aml-libs, libcurl3, mali-fbdev
+Conflicts: kodi, kodi-fbdev, kodi-latest, kodi-x11-trusty, mali-x11
+Replaces: kodi, kodi-fbdev, kodi-latest, kodi-x11-trusty
+Provides: xbmc,xbmc-bin,xbmc-data
+Filename: pool/s805/k/kodi-fbdev-trusty/kodi-fbdev-trusty_16.0-FINAL-1_armhf.deb
+Size: 21853018
+MD5sum: 269d98ad75210f1e0f1ee8bda11d9cd7
+SHA1: e6cd82cddf4a0da40fc82075dc2f265c956fc729
+SHA256: d0dfbce79b5bd23d87cffc961cd8fb5ed52d486598fe5c6b1c64b294d6658bd2
+Section: video
+Priority: extra
+Description: Kodi 16.0 (Jarvis) compiled specifically for s805 by ODROBIAN
+ Kodi 16.0 (Jarvis) compiled specifically for s805 by ODROBIAN
+ Kodi 16.0 (Jarvis) compiled specifically for s805
+
+Package: kodi-x11-trusty
+Version: 16.0-FINAL-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 50932
+Depends: libasound2 (>= 1.0.27), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbluetooth3 (>= 4.91), libbz2-1.0, libc6 (>= 2.17), libcap2 (>= 1:2.10), libcdio13 (>= 0.83), libdbus-1-3 (>= 1.0.2), libdrm2 (>= 2.4.16), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.4.0), libgcrypt20 (>= 1.6.0), libgmp10, libgnutls28, libgpg-error0, libhogweed2, libjasper1, libjpeg-turbo8, liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, libmicrohttpd10 (>= 0.9.20), libmysqlclient18 (>= 5.5.24+dfsg-1), libnettle4, libogg0 (>= 1.0rc3), libp11-kit0 (>= 0.2), libpcre3, libpcrecpp0 (>= 7.7), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.4), libpython2.7 (>= 2.7), libsmbclient (>= 2:4.0.3+dfsg1), libsqlite3-0 (>= 3.6.11), libssh-4 (>= 0.6.1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.9), libtag1c2a (>= 1.8), libtag1c2a (>= 1.4), libtasn1-6, libtiff5 (>= 4.0.3), libtinyxml2.6.2, libudev1 (>= 183), libva-x11-1 (>= 1.0.3), libva1 (>= 1.0.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx11-6, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxml2 (>= 2.7.4), libxrandr2, libxslt1.1 (>= 1.1.25), libyajl2 (>= 2.0.4), zlib1g (>= 1:1.2.0.2), libcurl3-gnutls, aml-libs, libcurl3
+Conflicts: kodi, kodi-fbdev, kodi-latest
+Replaces: kodi, kodi-fbdev, kodi-latest
+Provides: xbmc,xbmc-bin,xbmc-data
+Filename: pool/s805/k/kodi-x11-trusty/kodi-x11-trusty_16.0-FINAL-1_armhf.deb
+Size: 21872542
+MD5sum: 2c3843790072d1600ccd76a5b02fc331
+SHA1: fc407c604123619fcc3ba50fbcad58b3c4e367bb
+SHA256: c103f245c470ec9aa5bd0c32bdcbed787bdd66106f9d634f5ed156223701e8f1
+Section: video
+Priority: extra
+Description: Kodi 16.0 (Jarvis) compiled specifically for s805 by ODROBIAN
+ Kodi 16.0 (Jarvis) compiled specifically for s805 by ODROBIAN
+ Kodi 16.0 (Jarvis) compiled specifically for s805
+
+Package: libump-mali
+Version: 1.0-r5p0-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Depends: libc6 (>= 2.4)
+Provides: libump-mali
+Filename: pool/s805/libu/libump-mali/libump-mali_1.0-r5p0-1_armhf.deb
+Size: 24320
+MD5sum: 491c3242644233cfa2faaa74a34884f4
+SHA1: 8313ab9b2809db39e86b12b0526ec57d6f351e97
+SHA256: 85a963baf5fef6ebc75720c0379e104f0818a4246bbdbfff52c35c393509d00e
+Section: libs
+Priority: extra
+Description: UMP Library for mali X video driver
+ UMP Library for mali X video driver
+
+Package: linux-headers-3.10.80-15-odrobian
+Source: linux-source-3.10.80-15-odrobian
+Version: 20151126
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 47046
+Depends: libc6 (>= 2.7)
+Recommends: libc6-dev | libc-dev, gcc | c-compiler, make (>= 3.80-10), binutils (>= 2.12), util-linux (>= 2.10o)
+Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
+Provides: linux-headers, linux-headers-3.10
+Filename: pool/s805/l/linux-source-3.10.80-15/linux-headers-3.10.80-15-odrobian_20151126_armhf.deb
+Size: 6565628
+MD5sum: 13e8f9fd5451ee4e422a8baaeb825166
+SHA1: 37dd0c6ea163f22006d6ad9bee400a51907b1b1f
+SHA256: 80696e21040649b592597ec86b2f980f6025ec8a07b8c02dd0342ec904ff998e
+Section: devel
+Priority: optional
+Description: Header files related to Linux kernel, specifically,
+ version 3.10.80-15-odrobian
+ .
+ This package provides kernel header files for sites
+ that want the latest kernel headers for version
+ 3.10.80-15-odrobian.
+ Please read
+ /usr/share/doc/linux-headers-3.10.80-15-odrobian/debian.README.gz
+ for details
+
+Package: linux-headers-3.10.80-16-odrobian
+Source: linux-source-3.10.80-16-odrobian
+Version: 20151201
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 47042
+Depends: libc6 (>= 2.7)
+Recommends: libc6-dev | libc-dev, gcc | c-compiler, make (>= 3.80-10), binutils (>= 2.12), util-linux (>= 2.10o)
+Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
+Provides: linux-headers, linux-headers-3.10
+Filename: pool/s805/l/linux-source-3.10.80-16/linux-headers-3.10.80-16-odrobian_20151201_armhf.deb
+Size: 6563758
+MD5sum: 523443adad2689e49c3664a423a1be65
+SHA1: b9b8c57ad5827dd4164e0bbd547fc97d59196e1e
+SHA256: d35ccae679a50a0bd165d4b0d24431b7ad668a672b2772279265bd48c6e0aa90
+Section: devel
+Priority: optional
+Description: Header files related to Linux kernel, specifically,
+ version 3.10.80-16-odrobian
+ .
+ This package provides kernel header files for sites
+ that want the latest kernel headers for version
+ 3.10.80-16-odrobian.
+ Please read
+ /usr/share/doc/linux-headers-3.10.80-16-odrobian/debian.README.gz
+ for details
+
+Package: linux-headers-3.10.80-20-odrobian
+Source: linux-source-3.10.80-20-odrobian
+Version: 20160213
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 47034
+Depends: libc6 (>= 2.7)
+Recommends: libc6-dev | libc-dev, gcc | c-compiler, make (>= 3.80-10), binutils (>= 2.12), util-linux (>= 2.10o)
+Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
+Provides: linux-headers, linux-headers-3.10
+Filename: pool/s805/l/linux-source-3.10.80-20/linux-headers-3.10.80-20-odrobian_20160213_armhf.deb
+Size: 6545062
+MD5sum: f3057e2b17f3b46bedcc74c166d38ea3
+SHA1: 0b7b96b32741af6fa650c47fe34718227990462c
+SHA256: 25261f0d2b58618b59d17ef87c236a0dbcc73deb902a7473586c4898d0a98b66
+Section: devel
+Priority: optional
+Description: Header files related to Linux kernel, specifically,
+ version 3.10.80-20-odrobian
+ .
+ This package provides kernel header files for sites
+ that want the latest kernel headers for version
+ 3.10.80-20-odrobian.
+ Please read
+ /usr/share/doc/linux-headers-3.10.80-20-odrobian/debian.README.gz
+ for details
+
+Package: linux-headers-3.10.96-45-odrobian
+Source: linux-source-3.10.96-45-odrobian
+Version: 20160419
+Architecture: armhf
+Maintainer: Saleem (ODROBIAN Repository) <smooth0sal@gmail.com>
+Installed-Size: 47014
+Depends: libc6 (>= 2.7)
+Recommends: libc6-dev | libc-dev, gcc | c-compiler, make (>= 3.80-10), binutils (>= 2.12), util-linux (>= 2.10o)
+Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
+Provides: linux-headers, linux-headers-3.10
+Filename: pool/s805/l/linux-source-3.10.96-45/linux-headers-3.10.96-45-odrobian_20160419_armhf.deb
+Size: 6566276
+MD5sum: 843419715a04bdff754bc5d7aad411d0
+SHA1: d9b9fe4138907c7dbeba020f2007e1cb805c1ef3
+SHA256: 43dd61f013e7be9f658e20334e925511185b435ab855f898458182b9a68bf683
+Section: devel
+Priority: optional
+Description: Header files related to Linux kernel, specifically,
+ version 3.10.96-45-odrobian
+ .
+ This package provides kernel header files for sites
+ that want the latest kernel headers for version
+ 3.10.96-45-odrobian.
+ Please read
+ /usr/share/doc/linux-headers-3.10.96-45-odrobian/debian.README.gz
+ for details
+
+Package: linux-headers-odrobian-s805
+Version: 45-1
+Architecture: armhf
+Maintainer: Saleem (ODROBIAN Repository) <smooth0sal@gmail.com>
+Depends: linux-headers-3.10.96-45-odrobian
+Conflicts: linux-headers-3.10.80-15-odrobian, linux-headers-3.10.80-16-odrobian, linux-headers-3.10.80-20-odrobian
+Replaces: linux-headers-3.10.80-15-odrobian, linux-headers-3.10.80-16-odrobian, linux-headers-3.10.80-20-odrobian
+Provides: linux-headers-odrobian-s805
+Filename: pool/s805/l/linux-headers-odrobian-s805/linux-headers-odrobian-s805_45-1_armhf.deb
+Size: 2108
+MD5sum: 114b5d6b2a3d2c068eb990b90c7bfdac
+SHA1: 5ee5dc59bf5cab5617baffd27a57f092891ed61e
+SHA256: bb18cd001c96e5a4f351dba87845c9e582d207c1b1fc18cf8d17790e172ab170
+Section: kernel
+Priority: extra
+Description: Linux Headers 3.10 Long Term for ODROID-C1/C1+/C0
+
+Package: linux-image-3.10.80-15-odrobian
+Source: linux-source-3.10.80-15-odrobian
+Version: 20151126
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 34602
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Recommends: kernel-common
+Suggests: fdutils, linux-doc-3.10.80-15-odrobian | linux-source-3.10.80-15-odrobian, linux-image-3.10.80-15-odrobian-dbg, linux-manual-3.10.80-15-odrobian
+Replaces: linux-image-3.10.80-10-odrobian
+Provides: linux-image, linux-image-3.10, linux-modules-3.10
+Filename: pool/s805/l/linux-source-3.10.80-15/linux-image-3.10.80-15-odrobian_20151126_armhf.deb
+Size: 11913234
+MD5sum: 269f9cc566c8aede927e06b031794026
+SHA1: 6cbad7631ac5db5f64b0b8e57be7dd99f03a5396
+SHA256: 06f4701e4624853ed736b36d711cce9aa611e5e59f09c32b2595c883c416d2cc
+Section: kernel
+Priority: optional
+Description: Linux kernel binary image for version 3.10.80-15-odrobian
+ This package contains the Linux kernel image for version
+ 3.10.80-15-odrobian.
+ .
+ It also contains the corresponding System.map file, and the modules
+ built by the packager.  It also contains scripts that try to ensure
+ that the system is not left in a unbootable state after an update.
+ .
+ Kernel image packages are generally produced using kernel-package,
+ and it is suggested that you install that package if you wish to
+ create a custom kernel from the sources. Please look at kernel-img.conf(5),
+ and /usr/share/doc/kernel-package/README.gz  from the package kernel-package
+ for details on how to tailor the  installation of this or any other kernel
+ image package
+
+Package: linux-image-3.10.80-16-odrobian
+Source: linux-source-3.10.80-16-odrobian
+Version: 20151201
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 34587
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Recommends: kernel-common
+Suggests: fdutils, linux-doc-3.10.80-16-odrobian | linux-source-3.10.80-16-odrobian, linux-image-3.10.80-16-odrobian-dbg, linux-manual-3.10.80-16-odrobian
+Replaces: linux-image-3.10.80-10-odrobian, linux-image-3.10.80-15-odrobian
+Provides: linux-image, linux-image-3.10, linux-modules-3.10
+Filename: pool/s805/l/linux-source-3.10.80-16/linux-image-3.10.80-16-odrobian_20151201_armhf.deb
+Size: 11898362
+MD5sum: c243ff7ad3133328876d8416110bc3e8
+SHA1: 54a2e8d7f9fc652378a2460829ea3f0ccc3064df
+SHA256: b7ae507e7dec86c00844d6914ea3d56de2bb4b1c4a189396d7d4b7e19d33ed87
+Section: kernel
+Priority: optional
+Description: Linux kernel binary image for version 3.10.80-16-odrobian
+ This package contains the Linux kernel image for version
+ 3.10.80-16-odrobian.
+ .
+ It also contains the corresponding System.map file, and the modules
+ built by the packager.  It also contains scripts that try to ensure
+ that the system is not left in a unbootable state after an update.
+ .
+ Kernel image packages are generally produced using kernel-package,
+ and it is suggested that you install that package if you wish to
+ create a custom kernel from the sources. Please look at kernel-img.conf(5),
+ and /usr/share/doc/kernel-package/README.gz  from the package kernel-package
+ for details on how to tailor the  installation of this or any other kernel
+ image package
+
+Package: linux-image-3.10.80-20-odrobian
+Source: linux-source-3.10.80-20-odrobian
+Version: 20160213
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 34559
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Recommends: kernel-common
+Suggests: fdutils, linux-doc-3.10.80-20-odrobian | linux-source-3.10.80-20-odrobian, linux-image-3.10.80-20-odrobian-dbg, linux-manual-3.10.80-20-odrobian
+Replaces: linux-image-3.10.80-10-odrobian, linux-image-3.10.80-15-odrobian, linux-image-3.10.80-16-odrobian
+Provides: linux-image, linux-image-3.10, linux-modules-3.10
+Filename: pool/s805/l/linux-source-3.10.80-20/linux-image-3.10.80-20-odrobian_20160213_armhf.deb
+Size: 11885980
+MD5sum: 663d9d2ed6e644a0a2c1404c0658b50b
+SHA1: 510c67f2beede5a9b233b50f2d13bd63f1f86b15
+SHA256: 248cd918980d08ddadf6bd210f10596ce1a47175d69e03291c9b962244a85e06
+Section: kernel
+Priority: optional
+Description: Linux kernel binary image for version 3.10.80-20-odrobian
+ This package contains the Linux kernel image for version
+ 3.10.80-20-odrobian.
+ .
+ It also contains the corresponding System.map file, and the modules
+ built by the packager.  It also contains scripts that try to ensure
+ that the system is not left in a unbootable state after an update.
+ .
+ Kernel image packages are generally produced using kernel-package,
+ and it is suggested that you install that package if you wish to
+ create a custom kernel from the sources. Please look at kernel-img.conf(5),
+ and /usr/share/doc/kernel-package/README.gz  from the package kernel-package
+ for details on how to tailor the  installation of this or any other kernel
+ image package
+
+Package: linux-image-3.10.96-45-odrobian
+Source: linux-source-3.10.96-45-odrobian
+Version: 20160419
+Architecture: armhf
+Maintainer: Saleem (ODROBIAN Repository) <smooth0sal@gmail.com>
+Installed-Size: 34445
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Recommends: kernel-common
+Suggests: fdutils, linux-doc-3.10.96-45-odrobian | linux-source-3.10.96-45-odrobian, linux-image-3.10.96-45-odrobian-dbg, linux-manual-3.10.96-45-odrobian
+Replaces: linux-image-3.10.80-10-odrobian, linux-image-3.10.80-15-odrobian, linux-image-3.10.80-16-odrobian, linux-image-3.10.80-20-odrobian
+Provides: linux-image, linux-image-3.10, linux-modules-3.10
+Filename: pool/s805/l/linux-source-3.10.96-45/linux-image-3.10.96-45-odrobian_20160419_armhf.deb
+Size: 11773932
+MD5sum: ae19c290dc0a8bb784746686bb528012
+SHA1: 9b486f2ada39e833bfeeb7b16657b1b328e5132b
+SHA256: 69d26907d8fe7d41277ec3c78616d90b40b4697cddb18e28cd31bc2858029dc7
+Section: kernel
+Priority: optional
+Description: Linux kernel binary image for version 3.10.96-45-odrobian
+ This package contains the Linux kernel image for version
+ 3.10.96-45-odrobian.
+ .
+ It also contains the corresponding System.map file, and the modules
+ built by the packager.  It also contains scripts that try to ensure
+ that the system is not left in a unbootable state after an update.
+ .
+ Kernel image packages are generally produced using kernel-package,
+ and it is suggested that you install that package if you wish to
+ create a custom kernel from the sources. Please look at kernel-img.conf(5),
+ and /usr/share/doc/kernel-package/README.gz  from the package kernel-package
+ for details on how to tailor the  installation of this or any other kernel
+ image package
+
+Package: linux-image-odrobian-s805
+Version: 45-1
+Architecture: armhf
+Maintainer: Saleem (ODROBIAN Repository) <smooth0sal@gmail.com>
+Depends: linux-image-3.10.96-45-odrobian
+Conflicts: linux-image-3.10.80-10-odrobian, linux-image-3.10.80-15-odrobian, linux-image-3.10.80-16-odrobian, linux-image-3.10.80-20-odrobian
+Replaces: linux-image-3.10.80-10-odrobian, linux-image-3.10.80-15-odrobian, linux-image-3.10.80-16-odrobian, linux-image-3.10.80-20-odrobian
+Provides: linux-image-odrobian-s805
+Filename: pool/s805/l/linux-image-odrobian-s805/linux-image-odrobian-s805_45-1_armhf.deb
+Size: 2108
+MD5sum: acb6c5d7bc4995804a008eb826fadb4d
+SHA1: 8e6dad52ff9cfcea66e581cc66034b529ebd6afb
+SHA256: e41a7c2558415ecb0c813ab2c355f2aaf497cec0e2100b70afedb69b7a7eee49
+Section: kernel
+Priority: extra
+Description: Linux Kernel 3.10 Long Term for ODROID-C1/C1+/C0
+
+Package: s805-zram
+Version: 1.0-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Provides: s805-zram
+Filename: pool/s805/s/s805-zram/s805-zram_1.0-1_armhf.deb
+Size: 3022
+MD5sum: 65c19c1220d80cce5df848768bb52de3
+SHA1: 3609a3bba2c69791aa42c096a0d39cdfa5ac9be6
+SHA256: 6abb9e9b95931cb921f1bb9763c2147d8f915e0cc9a252c24b49572b3a8ea0f9
+Priority: optional
+Description: Enables logical 2GB RAM on ODROID C1 by making use of kernel zRAM module.
+

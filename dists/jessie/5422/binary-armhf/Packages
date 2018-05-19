@@ -1,0 +1,156 @@
+Package: bootini
+Version: 20160217-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 36
+Depends: u-boot-tools
+Provides: bootini
+Filename: pool/5422/b/bootini/bootini_20160217-1_armhf.deb
+Size: 4700
+MD5sum: 4aea0358f415f293bfe12f0e0868cc8d
+SHA1: 4cd978eacc943f740f74604dd19896b864c40351
+SHA256: 1efac05cc80776bf7304405129c5e632c8e682caf30fbb39c4cfb662923c9de1
+Section: multimedia
+Priority: extra
+Description: boot.ini for ODROID products based on 5422
+
+Package: energymonitor
+Version: 1.0-2
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Depends: libqwt6
+Provides: energymonitor
+Filename: pool/5422/e/energymonitor/energymonitor_1.0-2_armhf.deb
+Size: 20952
+MD5sum: 35065cc1715f2a15e775465c5246ad34
+SHA1: 701afba2cad0d245de5f6eb0ce06ceb899a6fd2b
+SHA256: 4796b1d6dec58462e5ac87fbeee7e58aa56ebab9a8bc00dc07373c2ed21730e9
+Section: utils
+Priority: extra
+Description: ODROID XU3/XU4 Energy Monitor for ODROBIAN
+
+Package: kodi-jarvis-fbdev
+Version: 16.0-FINAL-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 50804
+Depends: libasound2 (>= 1.0.27), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbluetooth3 (>= 4.91), libbz2-1.0, libc6 (>= 2.17), libcap2 (>= 1:2.10), libcdio13 (>= 0.83), libdbus-1-3 (>= 1.0.2), libdrm2 (>= 2.4.16), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.4.0), libgcrypt20 (>= 1.6.0), libgmp10, libgnutls-deb0-28 (>= 3.3.0), libgpg-error0 (>= 1.14), libhogweed2, libjasper1, libjpeg62-turbo (>= 1.3.1), liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, libmicrohttpd10 (>= 0.9.20), libmysqlclient18 (>= 5.5.24+dfsg-1), libnettle4, libogg0 (>= 1.0rc3), libp11-kit0 (>= 0.2), libpcre3 (>= 1:8.35), libpcrecpp0 (>= 7.7), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.4), libpython2.7 (>= 2.7), libsmbclient (>= 2:4.0.3+dfsg1), libsqlite3-0 (>= 3.6.11), libssh-4 (>= 0.6.1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.9), libtag1c2a (>= 1.8), libtag1c2a (>= 1.4), libtasn1-6 (>= 4.1-0), libtiff5 (>= 4.0.3), libtinyxml2.6.2, libudev1 (>= 183), libva-x11-1 (>= 1.0.3), libva1 (>= 1.0.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx11-6, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxml2 (>= 2.7.4), libxrandr2, libxslt1.1 (>= 1.1.25), libyajl2 (>= 2.0.4), zlib1g (>= 1:1.2.0.2), mali-fbdev, libcurl3-gnutls, libcurl3
+Suggests: libcec-odrobian
+Conflicts: mali-x11, kodi-odrobian-5422, kodi-jarvis-odrobian
+Replaces: kodi-odrobian-5422, kodi-jarvis-odrobian
+Provides: xbmc,xbmc-bin,xbmc-data
+Filename: pool/5422/k/kodi-jarvis-fbdev/kodi-jarvis-fbdev_16.0-FINAL-1_armhf.deb
+Size: 21973810
+MD5sum: 2219861eb64c79835981d8900769bdb4
+SHA1: 8a6d2f5df8ede23f650c2c3cf153e8072eb7d29d
+SHA256: 74849f3998e4b5c94b1f76e64126444458d659d121e3170dea7f2055cd9f92f5
+Section: video
+Priority: extra
+Description: Kodi 16.0 (Jarvis) compiled specifically for 5422 running under mali-fbdev blobs on ODROBIAN
+ Kodi 16.0 (Jarvis) compiled specifically for 5422 running under mali-fbdev blobs on ODROBIAN
+ Kodi 16.0 (Jarvis) compiled specifically for 5422
+
+Package: kodi-jarvis-odrobian
+Version: 16.0-FINAL-2
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 50832
+Depends: libasound2 (>= 1.0.27), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbluetooth3 (>= 4.91), libbz2-1.0, libc6 (>= 2.17), libcap2 (>= 1:2.10), libcdio13 (>= 0.83), libdbus-1-3 (>= 1.0.2), libdrm2 (>= 2.4.16), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.4.0), libgcrypt20 (>= 1.6.0), libgmp10, libgnutls-deb0-28 (>= 3.3.0), libgpg-error0 (>= 1.14), libhogweed2, libjasper1, libjpeg62-turbo (>= 1.3.1), liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, libmicrohttpd10 (>= 0.9.20), libmysqlclient18 (>= 5.5.24+dfsg-1), libnettle4, libogg0 (>= 1.0rc3), libp11-kit0 (>= 0.2), libpcre3 (>= 1:8.35), libpcrecpp0 (>= 7.7), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.4), libpython2.7 (>= 2.7), libsmbclient (>= 2:4.0.3+dfsg1), libsqlite3-0 (>= 3.6.11), libssh-4 (>= 0.6.1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.9), libtag1c2a (>= 1.8), libtag1c2a (>= 1.4), libtasn1-6 (>= 4.1-0), libtiff5 (>= 4.0.3), libtinyxml2.6.2, libudev1 (>= 183), libva-x11-1 (>= 1.0.3), libva1 (>= 1.0.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx11-6, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxml2 (>= 2.7.4), libxrandr2, libxslt1.1 (>= 1.1.25), libyajl2 (>= 2.0.4), zlib1g (>= 1:1.2.0.2), libcurl3-gnutls, libcurl3
+Suggests: libcec-odrobian
+Conflicts: kodi-odrobian-5422
+Provides: xbmc,xbmc-bin,xbmc-data
+Filename: pool/5422/k/kodi-jarvis-odrobian/kodi-jarvis-odrobian_16.0-FINAL-2_armhf.deb
+Size: 21992916
+MD5sum: e10e569c2ae9b2cfc6db3741afe76e48
+SHA1: 09f1e0f667e0cb1c899b0efc64114877be74ff0c
+SHA256: 7c7e4feae103161fcce3d27b65519e86919ddeedfff817d909debd3d07910ffa
+Section: video
+Priority: extra
+Description: Kodi 16.0 (Jarvis) compiled specifically for 5422 running on ODROBIAN
+ Kodi 16.0 (Jarvis) compiled specifically for 5422 running on ODROBIAN
+ Kodi 16.0 (Jarvis) compiled specifically for 5422
+
+Package: kodi-odrobian-5422
+Version: 15.2-FINAL-3
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 51432
+Depends: libasound2 (>= 1.0.27), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbluetooth3 (>= 4.91), libbz2-1.0, libc6 (>= 2.17), libcap2 (>= 1:2.10), libcdio13 (>= 0.83), libdbus-1-3 (>= 1.0.2), libdrm2 (>= 2.4.16), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.4.0), libgcrypt20 (>= 1.6.0), libgmp10, libgnutls-deb0-28 (>= 3.3.0), libgpg-error0 (>= 1.14), libhogweed2, libjasper1, libjpeg62-turbo (>= 1.3.1), liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, libmicrohttpd10 (>= 0.9.20), libmysqlclient18 (>= 5.5.24+dfsg-1), libnettle4, libogg0 (>= 1.0rc3), libp11-kit0 (>= 0.2), libpcre3 (>= 1:8.35), libpcrecpp0 (>= 7.7), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.4), libpython2.7 (>= 2.7), libsmbclient (>= 2:4.0.3+dfsg1), libsqlite3-0 (>= 3.6.11), libssh-4 (>= 0.6.1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.9), libtag1c2a (>= 1.8), libtag1c2a (>= 1.4), libtasn1-6 (>= 4.1-0), libtiff5 (>= 4.0.3), libtinyxml2.6.2, libudev1 (>= 183), libva-x11-1 (>= 1.0.3), libva1 (>= 1.0.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx11-6, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxml2 (>= 2.7.4), libxrandr2, libxslt1.1 (>= 1.1.25), libyajl2 (>= 2.0.4), zlib1g (>= 1:1.2.0.2), libcurl3-gnutls
+Suggests: libcec-odrobian
+Replaces: kodi
+Provides: xbmc,xbmc-bin,xbmc-data
+Filename: pool/5422/k/kodi-odrobian-5422/kodi-odrobian-5422_15.2-FINAL-3_armhf.deb
+Size: 21413052
+MD5sum: c3ef0b240dcd5f31edd4608ca65325c6
+SHA1: 1d783acbdbe4bd32be768a90477ee27dd0e109ab
+SHA256: 36dec70620e9748af33e7128785d12326525e95c58164c3db8900a1728718580
+Section: video
+Priority: extra
+Description: Kodi (isengard) 15.2 FINAL stable release compiled specifically for XU3/XU4 on Odrobian.
+ Kodi (isengard) 15.2 FINAL stable release compiled specifically for Odroid XU3/XU4 on Odrobian.
+
+Package: mali-fbdev
+Version: 20160123-r9p0-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 18472
+Depends: linux-image-odrobian-5422 (>= 20-1)
+Conflicts: mali-x11
+Replaces: mali-x11
+Provides: mali-fbdev
+Filename: pool/5422/m/mali-fbdev/mali-fbdev_20160123-r9p0-1_armhf.deb
+Size: 6431964
+MD5sum: a5678fc4535ef2d502651e2644b9c482
+SHA1: 339b875641b7f41e42d1e0ff80b265650a0c6b4b
+SHA256: a6878c142cf492aaf351c6d93b46cfdcda592fcaae77f73ed4d8d146ffd8322a
+Section: multimedia
+Priority: extra
+Description: fbdev Mali Drivers r9p0 for 5422 based products.
+
+Package: mali-x11
+Version: 20160123-r9p0-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 18472
+Depends: linux-image-odrobian-5422 (>= 20-1)
+Conflicts: mali-fvdev
+Replaces: mali-fbdev
+Provides: mali-x11
+Filename: pool/5422/m/mali-x11/mali-x11_20160123-r9p0-1_armhf.deb
+Size: 6432190
+MD5sum: 338cb54d0b4f9bb070dbfa53f16adf2d
+SHA1: cf97f78b2eaaaea7f3b09442f8071bcc81be226b
+SHA256: 53b067f180830802b98fb735db21c34145501f341798937235e720beacea4279
+Section: multimedia
+Priority: extra
+Description: X11 Mali Drivers r9p0 for 5422 based products.
+
+Package: odrobian-platform-5422
+Version: 2.0-17
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Suggests: oh-utils
+Conflicts: ffmpeg (= 20151017-1)
+Replaces: odroid-platform-5422
+Provides: odrobian-platform-5422
+Filename: pool/5422/o/odrobian-platform-5422/odrobian-platform-5422_2.0-17_armhf.deb
+Size: 4482
+MD5sum: 46650d0b79e6345d72dd415a5cb10b66
+SHA1: 8a51d80faca16eaf9039d468e0dd544b524b8aa0
+SHA256: 6b041b2fe1c1850a15b6493edbc01f53bc7c4860c819a5c4b6a7d45caaf1c8fa
+Priority: optional
+Description: This package contains default required configurations for ODROIDs running on Debian and additional scripts for ODROBIAN to expand its features.
+
+Package: xserver-xorg-video-armsoc-5422
+Version: 20151111-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Provides: xserver-xorg-video-armsoc-5422
+Filename: pool/5422/x/xserver-xorg-video-armsoc-5422/xserver-xorg-video-armsoc-5422_20151111-1_armhf.deb
+Size: 125580
+MD5sum: 726a43d1633e6433665e1a4946124b39
+SHA1: f7dfcd254dfc30739d6eb04bc5de0889a3b6c4ec
+SHA256: 9284b036125cc881d310010ba41e3d9f5d29264bb17d56da0f6058d1932d31aa
+Priority: extra
+Description: Armsoc drivers for exynos 5422 on Odrobian.
+

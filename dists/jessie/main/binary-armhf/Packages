@@ -1,0 +1,1396 @@
+Package: advanced-mate-menu
+Version: 1.0-2
+Architecture: all
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 140
+Depends: python-xlib | python-xdg
+Provides: advanced-mate-menu
+Filename: pool/main/a/advanced-mate-menu/advanced-mate-menu_1.0-2_all.deb
+Size: 195246
+MD5sum: 22f89b49dc4bd04bad9b6ae45377e792
+SHA1: 15307674d117c2ec9a769a092e1da6190714a2db
+SHA256: 2c15c4d51b4dcc87dbae8f85e36d5e0ae00cc687d9ec067b5c00985de51c236f
+Section: GNOME
+Priority: extra
+Description: Advanced MATE Menu compiled specifically for Odrobian distribution.
+
+Package: cec-utils
+Source: libcec
+Version: 3.0.1-1~jessie
+Architecture: armhf
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Installed-Size: 200
+Depends: libcec3 (= 3.0.1-1~jessie), libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libncurses5 (>= 5.5-5~), libstdc++6 (>= 4.4.0), libtinfo5
+Filename: pool/main/libc/libcec/cec-utils_3.0.1-1~jessie_armhf.deb
+Size: 92566
+MD5sum: a2eb34fbb5cbc3f0d099bfcd9c9ab931
+SHA1: f723283b2d4187863e27a28dc68c86bc9cdc2ace
+SHA256: e54c838543097f0b760dc0fd754a7b46d240396ccca52ecfdbf23e5c667856aa
+Section: utils
+Priority: optional
+Homepage: http://libcec.pulse-eight.com/
+Description: libCEC communication Library (utility programs)
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+ .
+ This package provides the CEC utility programs.
+
+Package: docker-odrobian
+Version: 1.11.0-1~jessie
+Architecture: armhf
+Maintainer: Saleem (ODROBIAN Repository) <smooth0sal@gmail.com>
+Installed-Size: 25178
+Depends: iptables, init-system-helpers (>= 1.18~), libapparmor1 (>= 2.6~devel), libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.90)
+Recommends: aufs-tools, ca-certificates, cgroupfs-mount | cgroup-lite, git, xz-utils, yubico-piv-tool (>= 1.1.0~)
+Conflicts: docker (<< 1.5~), docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Filename: pool/main/d/docker/docker-odrobian_1.11.0-1~jessie_armhf.deb
+Size: 5438880
+MD5sum: acc50ddffcb30b0fefed4a5b1c10cbc1
+SHA1: 9d15e61ec40d379a6136e0bac4cf6b200c6914ec
+SHA256: 6ac7350a815ba885c350f430a8f6283eb9f025cb8050848a1aea57d3239896c3
+Section: admin
+Priority: optional
+Homepage: https://dockerproject.org
+Description: Docker: the open-source application container engine
+ Docker is an open source project to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest EC2 compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: emulationstation-odrobian
+Version: 2.0.1a-6~jessie
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Depends: libasound2 (>= 1.0.16), libboost-date-time1.55.0, libboost-filesystem1.55.0, libboost-locale1.55.0, libboost-system1.55.0, libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libfreeimage3, libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libice6 (>= 1:1.0.0), libsm6, libstdc++6 (>= 4.9), libx11-6, libxext6, libsdl2-odrobian
+Suggests: odrobian-retrogaming-arcade
+Provides: emulationstation-odrobian
+Filename: pool/main/e/emulationstation/emulationstation-odrobian_2.0.1a-6~jessie_armhf.deb
+Size: 905362
+MD5sum: fbb352a8eb1e6e05ba8352fa542f3923
+SHA1: 7ef39abb52a54b65f6c6484daccc0fd8efa5c333
+SHA256: 79d900734c97d80db58f761764fbe6a668fa4483968b96296e770ef0d3a73f7e
+Section: games
+Priority: extra
+Description: EmulationStation front-end for Odrobian Gaming Platform
+ EmulatorStation for Odrobian RetroGaming
+ A graphical and themeable emulator front-end that allows you to access all your favorite games in one place, even without a keyboard!
+
+Package: es2-fbdev
+Version: 2.0.1a-2~jessie
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 3248
+Depends: libasound2 (>= 1.0.16), libboost-date-time1.55.0, libboost-filesystem1.55.0, libboost-locale1.55.0, libboost-system1.55.0, libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libfreeimage3, libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libice6 (>= 1:1.0.0), libsdl2-odrobian-fbdev, libsm6, libstdc++6 (>= 4.9), libx11-6, libxext6
+Provides: es2-fbdev
+Filename: pool/main/e/emulationstation/es2-fbdev_2.0.1a-2~jessie_armhf.deb
+Size: 855042
+MD5sum: 6c244f22ba227c831bae6be4302b4d85
+SHA1: f3edf4de0871b090bd49e6fe86b32e3007374092
+SHA256: fcb2b7a541ab47768a3c82351cd031251c040de8a32a1399b3cd69becfe9a370
+Section: games
+Priority: extra
+Description: EmulationStation front-end for Odrobian Gaming Platform
+ EmulatorStation for Odrobian RetroGaming
+ A graphical and themeable emulator front-end that allows you to access all your favorite games in one place, even without a keyboard!
+
+Package: ffmpeg
+Source: ffmpeg
+Version: 10:2.6.5-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 1799
+Depends: libavcodec56, libavdevice56, libavfilter5, libavformat56, libavresample2, libavutil54, libc6, libpostproc53, libswresample1, libswscale3
+Conflicts: ffprobe
+Replaces: libav-tools, libavcodec52
+Filename: pool/main/f/ffmpeg/ffmpeg_2.6.5-1_armhf.deb
+Size: 1200952
+MD5sum: 31785b954f006eca2e33fbc4690147a8
+SHA1: af7f0563e31e07f8a3ac009cf8325c2ba66dbb2b
+SHA256: 5c524b3732b9e7bd4150176725dfe1932aa0b5633e9a9c935252ef530f70618b
+Section: video
+Priority: optional
+Homepage: http://ffmpeg.org/
+Description: audio/video encoder, streaming server & audio/video file converter
+ FFmpeg is a hyper fast real time audio/video encoder, a streaming server
+ and a generic audio and video file converter.
+ .
+ It can grab from a standard Video4Linux video source and convert it into
+ several file formats based on DCT/motion compensation encoding. Sound is
+ compressed in MPEG audio layer 2 or using an AC3 compatible stream.
+
+Package: handbrake-cli
+Source: HandBrake
+Version: 1:0.10.5-1~jessie
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 9174
+Depends: libass5, libbluray1 (>= 0.3.0~), libbz2-1.0, libc6 (>= 2.14), libdvdnav4 (>= 4.9.0~~gita5c13254), libdvdread4 (>= 4.1.3), libfdk-aac0, libmp3lame0, libsamplerate0 (>= 0.1.7), libtheora0 (>= 1.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx264-146, libx265-51, zlib1g (>= 1:1.2.0), libjansson4
+Filename: pool/main/h/handbrake-cli/handbrake-cli_0.10.5-1~jessie_armhf.deb
+Size: 4242682
+MD5sum: 9dacdbf9321b20b97bbc855ca0f6fde8
+SHA1: 4f339ca75d5addb62c79432fc7710763cf94bbf8
+SHA256: 98ce866adc97c75c7efc921f1ac0a54424f902d85f5099cbd31df26656662c25
+Section: video
+Priority: extra
+Homepage: http://www.handbrake.fr/
+Description: Versatile DVD ripper and video transcoder (command line)
+ HandBrake is a versatile, easy-to-use tool for converting DVDs and other
+ videos into H.264, XViD, or OGG formatted media.  It's particularly useful
+ for making videos that are compatible with portable video devices such as
+ the Apple iPod/iPhone or Sony PSP.
+ .
+ This package contains the command-line variant, HandBrakeCLI.
+
+Package: kodi-pvr-addons
+Version: 20160218-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Depends: libtinyxml2.6.2, libjsoncpp0, libplatform1, libkodiplatform16 (= 16.0.0-1~jessie), kodi-pvr-argustv (= 1.11.9+jarvis-1~jessie), kodi-pvr-demo (= 1.1+jarvis-1~jessie), kodi-pvr-dvblink (= 2.1.0+jarvis-1~jessie), kodi-pvr-dvbviewer (= 1.11.10+jarvis-1~jessie), kodi-pvr-filmon (= 0.7.3+jarvis-1~jessie), kodi-pvr-hts (= 2.2.5+jarvis-1~jessie), kodi-pvr-iptvsimple (= 1.12.10+jarvis-1~jessie), kodi-pvr-mediaportal-tvserver (= 1.13.0+jarvis-1~jessie), kodi-pvr-mythtv (= 3.4.6+jarvis-1~jessie), kodi-pvr-nextpvr (= 1.12.8+jarvis-1~jessie), kodi-pvr-njoy (= 1.11.9+jarvis-1~jessie), kodi-pvr-pctv (= 0.2.9+jarvis-1~jessie), kodi-pvr-stalker (= 1.0.3+jarvis-1~jessie), kodi-pvr-vbox (= 2.1.9+jarvis-1~jessie), kodi-pvr-vdr-vnsi (= 1.11.14+jarvis-1~jessie), kodi-pvr-vuplus (= 1.11.9+jarvis-1~jessie)
+Suggests: kodi-pvr-wmc (= 0.6.13+jarvis-1~jessie)
+Conflicts: xbmc-pvr-addons, kodi-pvr-addons
+Replaces: xbmc-pvr-addons, kodi-pvr-addons
+Provides: kodi-pvr-addons
+Filename: pool/main/k/kodi-pvr-addons/kodi-pvr-addons_20160218-1_armhf.deb
+Size: 2318
+MD5sum: 652553555e2b52e23b162cde68428152
+SHA1: 21f7529fa3ac70c647968c3f3931dd9f49280c90
+SHA256: 501c96b78215cb145d4f5035a68c808094c2fb8c54758bf772f90ffa7fbc77bd
+Section: multimedia
+Priority: extra
+Description: Kodi Jarvis PVR Addons from Git for ODROBIAN
+
+Package: kodi-pvr-argustv
+Version: 1.11.9+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 667
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libjsoncpp0, libstdc++6 (>= 4.9)
+Filename: pool/main/k/kodi-pvr-argustv/kodi-pvr-argustv_1.11.9+jarvis-1~jessie_armhf.deb
+Size: 143926
+MD5sum: 028df9889b73cbaeb95247bf9d0d2ec8
+SHA1: f185994fc0d1407457ac5ff01fd17a1bd0eb088d
+SHA256: 68a9f2c79b1bd1e0416d4c1892e7e10bc1cfd8ee908c857914313168387616aa
+Section: libs
+Priority: extra
+Homepage: <http://kodi.tv>
+Description: ArgusTV PVR for Kodi
+ ArgusTV PVR for Kodi
+
+Package: kodi-pvr-argustv-dbg
+Source: kodi-pvr-argustv
+Version: 1.11.9+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 422
+Depends: kodi-pvr-argustv (= 1.11.9+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-argustv/kodi-pvr-argustv-dbg_1.11.9+jarvis-1~jessie_armhf.deb
+Size: 363990
+MD5sum: e13495ea188f49af08e678dff310e2f3
+SHA1: 682237878a8ab509c66ea04dfaf42b4f37025ba6
+SHA256: 767e3ddf4c9758f532ede42443c6ae7635bb1141085259f0692dfdc5f9f650b7
+Section: libs
+Priority: extra
+Homepage: <http://kodi.tv>
+Description: debug symbols for ArgusTV PVR for Kodi
+ debug symbols for ArgusTV PVR for Kodi
+
+Package: kodi-pvr-demo
+Version: 1.1+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 224
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libkodiplatform16, libplatform1, libstdc++6 (>= 4.9), libtinyxml2.6.2
+Filename: pool/main/k/kodi-pvr-demo/kodi-pvr-demo_1.1+jarvis-1~jessie_armhf.deb
+Size: 44878
+MD5sum: 88910d342c6539bdd75eb116797ef40b
+SHA1: 2f2d5df268c6299a631b4e0ce234ff98a322e130
+SHA256: 48096642194cadcb48b10b9125aaa5577cc81562b34e342be7632cdf5a37e19f
+Section: libs
+Priority: extra
+Description: Demo PVR for Kodi
+ Demo PVR for Kodi
+
+Package: kodi-pvr-demo-dbg
+Source: kodi-pvr-demo
+Version: 1.1+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 68
+Depends: kodi-pvr-demo (= 1.1+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-demo/kodi-pvr-demo-dbg_1.1+jarvis-1~jessie_armhf.deb
+Size: 6962
+MD5sum: 9fbc08b1226887240f39c1df8fe96553
+SHA1: 12d1d48314cac37f881ee65f84cdc90f90529f37
+SHA256: ca839a1fb13c7359122a5f2eaed5af008581e49265180cdfd945231cf65d0b42
+Section: debug
+Priority: extra
+Description: debug symbols for Demo PVR for Kodi
+ debug symbols for Demo PVR for Kodi
+
+Package: kodi-pvr-dvblink
+Version: 2.1.0+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 1035
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.9), libtinyxml2-2 (>= 2.0.2)
+Filename: pool/main/k/kodi-pvr-dvblink/kodi-pvr-dvblink_2.1.0+jarvis-1~jessie_armhf.deb
+Size: 172292
+MD5sum: 9866a3966560ba907cc1e590efbeabb3
+SHA1: 9e08c1ec023d66288e5850145112b261179d2d4f
+SHA256: 4ae1e3787579871af5783650bde04d235d20cdb64dbcab24b1b0e4bb97ab3161
+Section: libs
+Priority: extra
+Description: DVBLink PVR for Kodi
+ DVBLink PVR for Kodi
+
+Package: kodi-pvr-dvblink-dbg
+Source: kodi-pvr-dvblink
+Version: 2.1.0+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 1390
+Depends: kodi-pvr-dvblink (= 2.1.0+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-dvblink/kodi-pvr-dvblink-dbg_2.1.0+jarvis-1~jessie_armhf.deb
+Size: 1224748
+MD5sum: dea92b55705d88215137060287b65be8
+SHA1: 1379ae48623f6d0774e8ca07e725428bb476c9fd
+SHA256: 8e3f15d1cc268a88577be4d1e3348ba6fea16436ecb05e1ad323bc4cfe4732da
+Section: debug
+Priority: extra
+Description: debug symbols for DVBLink PVR for Kodi
+ debug symbols for DVBLink PVR for Kodi
+
+Package: kodi-pvr-dvbviewer
+Version: 1.11.10+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Manuel Mausz <manuel-kodi@mausz.at>
+Installed-Size: 695
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libkodiplatform16, libplatform1, libstdc++6 (>= 4.9), libtinyxml2.6.2
+Filename: pool/main/k/kodi-pvr-dvbviewer/kodi-pvr-dvbviewer_1.11.10+jarvis-1~jessie_armhf.deb
+Size: 103708
+MD5sum: fbb39f61b4b5cf0cdd8a4f07ff8f3ef6
+SHA1: a26df15eadfc7ac86a44f8506ede0d07d02704c9
+SHA256: ea53bac55be0e6697a7e05cbf884cb7efb90d1753f5e778ca9abdf1d7d2a22f4
+Section: libs
+Priority: extra
+Description: DVBViewer PVR for Kodi
+ DVBViewer PVR for Kodi
+
+Package: kodi-pvr-dvbviewer-dbg
+Source: kodi-pvr-dvbviewer
+Version: 1.11.10+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Manuel Mausz <manuel-kodi@mausz.at>
+Installed-Size: 324
+Depends: kodi-pvr-dvbviewer (= 1.11.10+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-dvbviewer/kodi-pvr-dvbviewer-dbg_1.11.10+jarvis-1~jessie_armhf.deb
+Size: 272050
+MD5sum: 57d16e897c76195fd6b3c8952e9c622c
+SHA1: 8e56b1de2eb02e0e7ff5a0683f5bc7329238fd45
+SHA256: e27c24b1b28ac60269328534e92393ca2548ebff1c99214aed2152d840e9f311
+Section: debug
+Priority: extra
+Description: debug symbols for DVBViewer PVR for Kodi
+ debug symbols for DVBViewer PVR for Kodi
+
+Package: kodi-pvr-filmon
+Version: 0.7.3+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 586
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libjsoncpp0, libstdc++6 (>= 4.9)
+Filename: pool/main/k/kodi-pvr-filmon/kodi-pvr-filmon_0.7.3+jarvis-1~jessie_armhf.deb
+Size: 127018
+MD5sum: 5e4e8db655a72b5aaf07d7ae88fff9e7
+SHA1: c689cb629e17a4d79fb33ebd6a3d250113fc68f1
+SHA256: 155083db052cf564776670726a855b8343f27f2536e2ee762ab41bb91a62634e
+Section: libs
+Priority: extra
+Description: FilmOn PVR for Kodi
+ FilmOn PVR for Kodi
+
+Package: kodi-pvr-filmon-dbg
+Source: kodi-pvr-filmon
+Version: 0.7.3+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 327
+Depends: kodi-pvr-filmon (= 0.7.3+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-filmon/kodi-pvr-filmon-dbg_0.7.3+jarvis-1~jessie_armhf.deb
+Size: 280520
+MD5sum: 0018775ac31e2dff3cbafa553cfebff9
+SHA1: ccefadaea41719909c1e78758414bd9d63f2ebbc
+SHA256: b975b6635ec65233719febc16d67b33de2e82cb3b621c0598be1d53f66646d36
+Section: debug
+Priority: extra
+Description: debug symbols for FilmOn PVR for Kodi
+ debug symbols for FilmOn PVR for Kodi
+
+Package: kodi-pvr-hts
+Version: 2.2.5+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 940
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.9)
+Breaks: kodi-pvr-tvheadend-hts (<< 2.2)
+Replaces: kodi-pvr-tvheadend-hts (<< 2.2)
+Provides: kodi-pvr-hts, kodi-pvr-tvheadend-hts
+Filename: pool/main/k/kodi-pvr-hts/kodi-pvr-hts_2.2.5+jarvis-1~jessie_armhf.deb
+Size: 218982
+MD5sum: 5b5da052b6c88a45d2207434a985e546
+SHA1: 2fff212f7c1f6f56a5c7f8f4ce5d19d2ace11c10
+SHA256: ef1be8f2c8cdf4d126c9904019d0bc76fefb613178de6add72fa6a0c7cb43538
+Section: libs
+Priority: extra
+Description: TVHeadEnd PVR for Kodi
+ TVHeadEnd PVR for Kodi
+
+Package: kodi-pvr-hts-dbg
+Source: kodi-pvr-hts
+Version: 2.2.5+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 1190
+Depends: kodi-pvr-hts (= 2.2.5+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-hts/kodi-pvr-hts-dbg_2.2.5+jarvis-1~jessie_armhf.deb
+Size: 1096752
+MD5sum: e667af9a90150e983a25234b1d07103e
+SHA1: c900ec06d6e72f2eea32b3a90b31e5c639392ea8
+SHA256: 08a62ac45c1c26fc50a1e384c3c52c2dbde74ca323de3aaef35d476b1ead1f6c
+Section: libs
+Priority: extra
+Description: debugging symbols for TVHeadEnd PVR for Kodi
+ debugging symbols for TVHeadEnd PVR for Kodi
+
+Package: kodi-pvr-iptvsimple
+Version: 1.12.10+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Anton Fedchin <anightik@gmail.com>
+Installed-Size: 714
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.9), zlib1g (>= 1:1.1.4)
+Filename: pool/main/k/kodi-pvr-iptvsimple/kodi-pvr-iptvsimple_1.12.10+jarvis-1~jessie_armhf.deb
+Size: 146540
+MD5sum: fc35340cb29df4aa1ed237bfe9667559
+SHA1: a7a62af21ef41af6a4bc66054fff70489203d5cd
+SHA256: da38293e27c62e39a043e8cf42f7e89235dffcf584add16e8f6ab9f4b475aef8
+Section: libs
+Priority: extra
+Description: Simple IPTV PVR for Kodi
+ Simple IPTV PVR for Kodi
+
+Package: kodi-pvr-iptvsimple-dbg
+Source: kodi-pvr-iptvsimple
+Version: 1.12.10+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Anton Fedchin <anightik@gmail.com>
+Installed-Size: 299
+Depends: kodi-pvr-iptvsimple (= 1.12.10+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-iptvsimple/kodi-pvr-iptvsimple-dbg_1.12.10+jarvis-1~jessie_armhf.deb
+Size: 230972
+MD5sum: e99120633f6086b5897fee3264cd0b3b
+SHA1: df30e758fa64e8406f1fd829dab04f3ad927757d
+SHA256: 47571109579de4619430a3bd2aa28940274bbe89cb45cc1674d1f907d045f9d8
+Section: debug
+Priority: extra
+Description: debug symbols for Simple IPTV PVR for Kodi
+ debug symbols for Simple IPTV PVR for Kodi
+
+Package: kodi-pvr-mediaportal-tvserver
+Version: 1.13.0+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 1082
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.9), libtinyxml2.6.2
+Filename: pool/main/k/kodi-pvr-mediaportal-tvserver/kodi-pvr-mediaportal-tvserver_1.13.0+jarvis-1~jessie_armhf.deb
+Size: 220584
+MD5sum: 458d8af485e0bfbf8ad7b2925567e847
+SHA1: ab93c4c550ef83d1c99b5cf873f7a3d10f350f5b
+SHA256: bb6d81df9bbbda97b9faa3b1fb64f3b00d03af03f07b7df4c22f0dc61a058fe4
+Section: libs
+Priority: extra
+Homepage: http://www.scintilla.utwente.nl/~marcelg/kodi/
+Description: MediaPortal PVR for Kodi
+ MediaPortal PVR for Kodi
+
+Package: kodi-pvr-mediaportal-tvserver-dbg
+Source: kodi-pvr-mediaportal-tvserver
+Version: 1.13.0+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 921
+Depends: kodi-pvr-mediaportal-tvserver (= 1.13.0+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-mediaportal-tvserver/kodi-pvr-mediaportal-tvserver-dbg_1.13.0+jarvis-1~jessie_armhf.deb
+Size: 861708
+MD5sum: b135e31c3d319df3aeed982689b13ce3
+SHA1: 227045e588301c9b9e307d0971b047d4d0494ec4
+SHA256: c43345255de95dfa2ede2ddd791f4cb0bf0a06b9bd956cb23aeea59342364da1
+Section: debug
+Priority: extra
+Homepage: http://www.scintilla.utwente.nl/~marcelg/kodi/
+Description: debug symbols for MediaPortal PVR for Kodi
+ debug symbols for the MediaPortal PVR for Kodi
+
+Package: kodi-pvr-mythtv
+Version: 3.4.6+jarvis-1~jessie
+Architecture: armhf
+Maintainer: janbar <jlbarriere68@gmail.com>
+Installed-Size: 2047
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.9)
+Filename: pool/main/k/kodi-pvr-mythtv/kodi-pvr-mythtv_3.4.6+jarvis-1~jessie_armhf.deb
+Size: 709212
+MD5sum: 978d30128602f0316b6affa5baa4363c
+SHA1: 377b74d617b65be0d07f4d1da0bb346e70d86a02
+SHA256: 9f9365f8024dc088f15882c8516f826d2612d52e60d17a1944690b80540efd1f
+Section: libs
+Priority: extra
+Homepage: http://kodi.tv
+Description: MythTV PVR for Kodi
+ MythTV PVR for Kodi
+
+Package: kodi-pvr-mythtv-dbg
+Source: kodi-pvr-mythtv
+Version: 3.4.6+jarvis-1~jessie
+Architecture: armhf
+Maintainer: janbar <jlbarriere68@gmail.com>
+Installed-Size: 3481
+Depends: kodi-pvr-mythtv (= 3.4.6+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-mythtv/kodi-pvr-mythtv-dbg_3.4.6+jarvis-1~jessie_armhf.deb
+Size: 3352924
+MD5sum: acb7174ea618a4165adfe80ba5b4d05f
+SHA1: 4bc6d96ec032e8122907644b788c4bf3013763af
+SHA256: 3c50b7eb3d15ba4f8d541f5ed93539fbd2a5e5eed20f6276edfbc3e4d3493e46
+Section: libs
+Priority: extra
+Homepage: http://kodi.tv
+Description: debug symbols for MythTV PVR for Kodi
+ debug symbols for MythTV PVR for Kodi
+
+Package: kodi-pvr-nextpvr
+Version: 1.12.8+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 675
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.9), libtinyxml2.6.2
+Filename: pool/main/k/kodi-pvr-nextpvr/kodi-pvr-nextpvr_1.12.8+jarvis-1~jessie_armhf.deb
+Size: 121510
+MD5sum: 740a81e28ee5e0165092b4ed42b29672
+SHA1: cd86088d87ca8bf8d03874b7bc23486c7519d974
+SHA256: 6073905019199a6d3279fbabc550a2f35e553b7505e3646656726ee297c28385
+Section: libs
+Priority: extra
+Homepage: http://www.nextpvr.com
+Description: NextPVR for Kodi
+ NextPVR for Kodi
+
+Package: kodi-pvr-nextpvr-dbg
+Source: kodi-pvr-nextpvr
+Version: 1.12.8+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 354
+Depends: kodi-pvr-nextpvr (= 1.12.8+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-nextpvr/kodi-pvr-nextpvr-dbg_1.12.8+jarvis-1~jessie_armhf.deb
+Size: 300446
+MD5sum: 95317e5b0bf2b02c0c8f963ea430ba1c
+SHA1: 462cb44076a0c537c8913d4e4bc1275c84afd911
+SHA256: 03df1c7f0f82ec0355e47c1a77bde3454e97a0052bdd66e3210e116c39983f7d
+Section: debug
+Priority: extra
+Homepage: http://www.nextpvr.com
+Description: debug symbols for NextPVR for Kodi
+ debug symbols for NextPVR for Kodi
+
+Package: kodi-pvr-njoy
+Version: 1.11.9+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 402
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libkodiplatform16, libplatform1, libstdc++6 (>= 4.9), libtinyxml2.6.2
+Filename: pool/main/k/kodi-pvr-njoy/kodi-pvr-njoy_1.11.9+jarvis-1~jessie_armhf.deb
+Size: 54508
+MD5sum: 93ac595c7b6bbfde2a96d6341bc0f842
+SHA1: 682f15babf8ad7677453b1ba7d2642d5e0714fed
+SHA256: 4776c4b23a5b71ebe23e0524c09e960c5dee1a0af02ad58e929c4ddf776798b9
+Section: libs
+Priority: extra
+Description: NJOY PVR for Kodi
+ NJOY PVR for Kodi
+
+Package: kodi-pvr-njoy-dbg
+Source: kodi-pvr-njoy
+Version: 1.11.9+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 106
+Depends: kodi-pvr-njoy (= 1.11.9+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-njoy/kodi-pvr-njoy-dbg_1.11.9+jarvis-1~jessie_armhf.deb
+Size: 64992
+MD5sum: ffbfb0f857d0f084e4fea0ddf13d3ff2
+SHA1: 3ab7969038f76d4b31648a68b38310ccb2cf2e1b
+SHA256: 9774f7e7a53571a9009d16141bfc8e8ef5747c0161340e24aa36d99e66e1fe07
+Section: debug
+Priority: extra
+Description: debug symbols for NJOY PVR for Kodi
+ debug symbols for NJOY PVR for Kodi
+
+Package: kodi-pvr-pctv
+Version: 0.2.9+jarvis-1~jessie
+Architecture: armhf
+Maintainer: hg1 <gerlach.holger@gmail.com>
+Installed-Size: 554
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libjsoncpp0, libstdc++6 (>= 4.9)
+Filename: pool/main/k/kodi-pvr-pctv/kodi-pvr-pctv_0.2.9+jarvis-1~jessie_armhf.deb
+Size: 77318
+MD5sum: d9e102ef0e80690d46be65203b6a71d3
+SHA1: 058a0fca539d7fee87be0f8f1f89d7ede648d3c7
+SHA256: c0e7f473fa17466735eeaafce95ed41772b638d13d3e898afbb4ed11dfa21701
+Section: libs
+Priority: extra
+Description: PCTV PVR for Kodi
+ PCTV PVR for Kodi
+
+Package: kodi-pvr-pctv-dbg
+Source: kodi-pvr-pctv
+Version: 0.2.9+jarvis-1~jessie
+Architecture: armhf
+Maintainer: hg1 <gerlach.holger@gmail.com>
+Installed-Size: 309
+Depends: kodi-pvr-pctv (= 0.2.9+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-pctv/kodi-pvr-pctv-dbg_0.2.9+jarvis-1~jessie_armhf.deb
+Size: 260776
+MD5sum: 6cfe87152e5d95f295903d41f28f1443
+SHA1: c24b013f1ab3cd8ada7c961f28a36a8d4784ba12
+SHA256: 57219938d97c4887ee8f8a2c34046a61d066fb45895e37df7664cc1dd28e39f4
+Section: debug
+Priority: extra
+Description: debug symbols for PCTV PVR for Kodi
+ debug symbols for PCTV PVR for Kodi
+
+Package: kodi-pvr-stalker
+Version: 1.0.3+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 689
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libjsoncpp0, libstdc++6 (>= 4.9), libtinyxml2.6.2
+Filename: pool/main/k/kodi-pvr-stalker/kodi-pvr-stalker_1.0.3+jarvis-1~jessie_armhf.deb
+Size: 127222
+MD5sum: 182bd80a08b3388daccc8a9e1e1aaf60
+SHA1: cf658631d8b975b72c3fc810eb7f21f48108e039
+SHA256: 2801f621dc7945c112459a45fa1efcf1edffc8a326429c7cccf5ee81cff9b14b
+Section: libs
+Priority: extra
+Description: Stalker PVR for Kodi
+ Stalker PVR for Kodi
+
+Package: kodi-pvr-stalker-dbg
+Source: kodi-pvr-stalker
+Version: 1.0.3+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 462
+Depends: kodi-pvr-stalker (= 1.0.3+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-stalker/kodi-pvr-stalker-dbg_1.0.3+jarvis-1~jessie_armhf.deb
+Size: 382444
+MD5sum: 76798437637c76b37f5709fab8a82c6d
+SHA1: ae0ff5f68304a19fe8ca9ca6c097952b4c0d20ce
+SHA256: 65015008fce2443906c193590307ee554dbe8c0bd61f63e53d28916913cf66ea
+Section: libs
+Priority: extra
+Description: debugging symbols for Stalker PVR for Kodi
+ debugging symbols for Stalker PVR for Kodi
+
+Package: kodi-pvr-tvheadend-hts
+Source: kodi-pvr-hts
+Version: 2.2.5+jarvis-1~jessie
+Architecture: all
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 21
+Depends: kodi-pvr-hts (= 2.2.5+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-hts/kodi-pvr-tvheadend-hts_2.2.5+jarvis-1~jessie_all.deb
+Size: 2140
+MD5sum: ff9a37b03916f405917459efb603a05b
+SHA1: eb0d69d3633a1adca6e8914b051390ba995b0ff0
+SHA256: 469080227521d76d2bdcfb8d085c6fad4885977ce591af0251781a9e582cdf2e
+Section: oldlibs
+Priority: extra
+Description: transitional dummy package
+  This is a transitional dummy package. It can safely be removed.
+
+Package: kodi-pvr-vbox
+Version: 2.1.9+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Sam Stenvall <sam.stenvall@kodi.tv>
+Installed-Size: 678
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.9)
+Filename: pool/main/k/kodi-pvr-vbox/kodi-pvr-vbox_2.1.9+jarvis-1~jessie_armhf.deb
+Size: 143302
+MD5sum: 2ef1c7222f33ba96241868d8a3e57a8d
+SHA1: 81071a29e77bb2d70e9b28d1ff016b87201f9cb8
+SHA256: 88d194e4af4dfcf5d9e289a1905f63e1ebbc72ddb366e03d51ff977a942cb4fd
+Section: libs
+Priority: extra
+Homepage: https://github.com/Jalle19/pvr.vbox
+Description: VBox Home TV Gateway PVR client for Kodi
+ VBox Home TV Gateway PVR client for Kodi
+
+Package: kodi-pvr-vbox-dbg
+Source: kodi-pvr-vbox
+Version: 2.1.9+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Sam Stenvall <sam.stenvall@kodi.tv>
+Installed-Size: 685
+Depends: kodi-pvr-vbox (= 2.1.9+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-vbox/kodi-pvr-vbox-dbg_2.1.9+jarvis-1~jessie_armhf.deb
+Size: 581864
+MD5sum: 526e428225876a299ba89ac2f4f41dd0
+SHA1: b8978aa46395c7fd7115602bfac3ef31337e51f1
+SHA256: d5facaaa7402e89f3f5596cc97a9d4757b8604dea8a81e3c206a37589dfaeffe
+Section: libs
+Priority: extra
+Homepage: https://github.com/Jalle19/pvr.vbox
+Description: debug symbols for VBox Home TV Gateway PVR client for Kodi
+ debug symbols for VBox Home TV Gateway PVR client for Kodi
+
+Package: kodi-pvr-vdr-vnsi
+Version: 1.11.14+jarvis-1~jessie
+Architecture: armhf
+Maintainer: fernetmenta <fernetmenta@kodi.tv>
+Installed-Size: 1000
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.9)
+Filename: pool/main/k/kodi-pvr-vdr-vnsi/kodi-pvr-vdr-vnsi_1.11.14+jarvis-1~jessie_armhf.deb
+Size: 161720
+MD5sum: 6fe2838f94f4ea75dfbdcb0b438b3484
+SHA1: f53f19edc43c0fd42a34d68b30b7a422ef0bbac9
+SHA256: 6e9e9a6547dff224f05fca214cf95e5799788b52f4a89f717b192ddd09238180
+Section: libs
+Priority: extra
+Homepage: http://kodi.tv
+Description: VDR PVR for Kodi
+ VDR PVR for Kodi
+
+Package: kodi-pvr-vdr-vnsi-dbg
+Source: kodi-pvr-vdr-vnsi
+Version: 1.11.14+jarvis-1~jessie
+Architecture: armhf
+Maintainer: fernetmenta <fernetmenta@kodi.tv>
+Installed-Size: 561
+Depends: kodi-pvr-vdr-vnsi (= 1.11.14+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-vdr-vnsi/kodi-pvr-vdr-vnsi-dbg_1.11.14+jarvis-1~jessie_armhf.deb
+Size: 492348
+MD5sum: 2de9e0ba6993522806d406dcca91b896
+SHA1: e703e7e192feb47e89849baaefee59a1982a553a
+SHA256: e041877ac9398b21d260b7e35fec5526a39747e951b36c1a5435243d71d47ac7
+Section: libs
+Priority: extra
+Homepage: http://kodi.tv
+Description: debug symbols for VDR PVR for Kodi
+ debug symbols for VDR PVR for Kodi
+
+Package: kodi-pvr-vuplus
+Version: 1.11.9+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Cristiano A. Silva <hudokkow@gmail.com>
+Installed-Size: 661
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libkodiplatform16, libplatform1, libstdc++6 (>= 4.9), libtinyxml2.6.2
+Filename: pool/main/k/kodi-pvr-vuplus/kodi-pvr-vuplus_1.11.9+jarvis-1~jessie_armhf.deb
+Size: 98494
+MD5sum: fac3beeb2aad1adb49990b5ef2e98532
+SHA1: 50e4a125f21ab74c7288a7a9b548a33e2c76da79
+SHA256: d4d0b2bf4b55d32b4af0909a1788cd188f129f442e5adfbbd2711ed945055540
+Section: libs
+Priority: extra
+Description: Vu+ PVR for Kodi
+ Vu+ PVR for Kodi
+
+Package: kodi-pvr-vuplus-dbg
+Source: kodi-pvr-vuplus
+Version: 1.11.9+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Cristiano A. Silva <hudokkow@gmail.com>
+Installed-Size: 350
+Depends: kodi-pvr-vuplus (= 1.11.9+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-vuplus/kodi-pvr-vuplus-dbg_1.11.9+jarvis-1~jessie_armhf.deb
+Size: 302052
+MD5sum: be8e56695db993b271e8d70c999bf5a5
+SHA1: 1dd16aa46f7a92b7de0ac969af55d70cb082655c
+SHA256: 7474e16e553da9f44955b1cec63e09866642406bc4d636beaebde66b1182b811
+Section: debug
+Priority: extra
+Description: debug symbols for Vu+ PVR for Kodi
+ debug symbols for Vu+ PVR for Kodi
+
+Package: kodi-pvr-wmc
+Version: 0.6.13+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 822
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libkodiplatform16, libplatform1, libstdc++6 (>= 4.9), libtinyxml2.6.2
+Conflicts: kodi-pvr-tvheadend-hts
+Replaces: kodi-pvr-tvheadend-hts
+Filename: pool/main/k/kodi-pvr-wmc/kodi-pvr-wmc_0.6.13+jarvis-1~jessie_armhf.deb
+Size: 172874
+MD5sum: a202e6c240e0d5599d910ac694c694b1
+SHA1: c72562bd962dbaef4874a51282e2846692e056a4
+SHA256: 3cacee3d3c6eed3f26520d142df3f06317e1ec7e79b84e34fa67b0d80d1e1536
+Section: libs
+Priority: extra
+Description: WMC PVR for Kodi
+ WMC PVR for Kodi
+
+Package: kodi-pvr-wmc-dbg
+Source: kodi-pvr-wmc
+Version: 0.6.13+jarvis-1~jessie
+Architecture: armhf
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 324
+Depends: kodi-pvr-wmc (= 0.6.13+jarvis-1~jessie)
+Filename: pool/main/k/kodi-pvr-wmc/kodi-pvr-wmc-dbg_0.6.13+jarvis-1~jessie_armhf.deb
+Size: 274920
+MD5sum: 9009f527ffb0241eb180625fb1c938fe
+SHA1: 41974510a4284bcefefdc6cd44ef9b7e442244fa
+SHA256: 25f7d4e732dbd5697cc7e39d2a1364d1ec02284ab761704e2283b630a1e4b5bd
+Section: libs
+Priority: extra
+Description: debugging symbols for WMC PVR for Kodi
+ debugging symbols for WMC PVR for Kodi
+
+Package: libavdevice56
+Source: ffmpeg
+Version: 10:2.6.5-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 181
+Pre-Depends: multiarch-support
+Depends: libasound2, libavc1394-0, libavcodec56, libavfilter5, libavformat56, libavutil54, libc6 (>= 2.7), libcdio-cdda1, libcdio-paranoia1, libdc1394-22, libiec61883-0, libjack-jackd2-0 | libjack-0.116, libpulse0, libraw1394-11, libx11-6, libxcb-shape0, libxcb-xfixes0, libxcb1, libxext6, libxv1
+Conflicts: libavdevice-extra-53, libavdevicecvs52
+Replaces: libavdevicecvs52
+Filename: pool/main/liba/libav/libavdevice56_2.6.5-1_armhf.deb
+Size: 45040
+MD5sum: c2554b494841845c8bb3628172eee2d4
+SHA1: a2bf6940e55e1b924a55d9771ef1376c1e19e7d8
+SHA256: cd5da812ab0b694cf2b2cc3100084d75dc61d62e916dfbd46b8c3e6982ebea2b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://ffmpeg.org/
+Description: FFmpeg device handling library
+ This is the device handling library from the FFmpeg project.
+
+Package: libcec
+Version: 3.0.1-1~jessie
+Architecture: armhf
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Installed-Size: 75
+Depends: libcec3 (= 3.0.1-1~jessie)
+Filename: pool/main/libc/libcec/libcec_3.0.1-1~jessie_armhf.deb
+Size: 51208
+MD5sum: 7692ff5643657644e841810ad1c1541c
+SHA1: 38e1187573ee0a57c5e925dc365c146925142ee2
+SHA256: bd60bdb62ed3cda4df1137cbacf06311382015300cd3cc903d726e8803d4e701
+Section: libs
+Priority: optional
+Homepage: http://libcec.pulse-eight.com/
+Description: Meta package libCEC.
+
+Package: libcec-dev
+Source: libcec
+Version: 3.0.1-1~jessie
+Architecture: armhf
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Installed-Size: 189
+Depends: libcec3 (= 3.0.1-1~jessie)
+Filename: pool/main/libc/libcec/libcec-dev_3.0.1-1~jessie_armhf.deb
+Size: 67902
+MD5sum: 31f7f61aed5d0867b9277852143f7be5
+SHA1: 04dbbd5873f40cde3f5f9966a14d93cfca63f566
+SHA256: fbdc2f6e4ff882b7ebd0e0c88827f95de343277ce7792714f66dc1d62abd2fff
+Section: libdevel
+Priority: optional
+Homepage: http://libcec.pulse-eight.com/
+Description: libCEC communication Library (development files)
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+ .
+ This package provides the necessary files needed for development.
+
+Package: libcec-odrobian
+Version: 3.0.1-2
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Depends: libcec (= 3.0.1-1~jessie), cec-utils (= 3.0.1-1~jessie), libp8-platform2
+Provides: libcec-odrobian
+Filename: pool/main/libc/libcec-odrobian/libcec-odrobian_3.0.1-2_armhf.deb
+Size: 30302
+MD5sum: daaead75cc96e7a8d1d29eb4963fa4d3
+SHA1: 66144f686a47947027456f4fe2241ecd49f71ae5
+SHA256: fbc47a888769433cd40aa181adf9a0a5eff7897720a1cab303b189ac8ad3fcab
+Section: libs
+Priority: extra
+Description: Pulse-Eight CEC for ODROIDs running on Odrobian
+ Pulse-Eight CEC for ODROIDs running on Odrobian
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+
+Package: libcec3
+Source: libcec
+Version: 3.0.1-1~jessie
+Architecture: armhf
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Installed-Size: 558
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), liblockdev1, libstdc++6 (>= 4.4.0), libudev1 (>= 183), libx11-6, libxrandr2 (>= 2:1.2.99.2)
+Conflicts: libcec (<< 2.2), libcec1, libcec2
+Replaces: libcec (<< 2.2), libcec1, libcec2
+Provides: libcec, libcec1, libcec2
+Filename: pool/main/libc/libcec/libcec3_3.0.1-1~jessie_armhf.deb
+Size: 227538
+MD5sum: fbba45dac37616c221c3c0cc5b2afd16
+SHA1: 2b3eb9a6c394c1be60d4e0397ce84ea17832992a
+SHA256: 8d410fda3e6ba442e7fbb458d8552f1eb1e497419fd9e26bed3b54eb8873b519
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://libcec.pulse-eight.com/
+Description: libCEC communication Library (shared library)
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+ .
+ This package provides the shared library.
+
+Package: libkodiplatform-dev
+Source: kodiplatform
+Version: 16.0.0-1~jessie
+Architecture: armhf
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 60
+Depends: libkodiplatform16 (= 16.0.0-1~jessie), libtinyxml-dev, libplatform-dev
+Provides: libkodiplatform-dev
+Filename: pool/main/k/kodi-platform/libkodiplatform-dev_16.0.0-1~jessie_armhf.deb
+Size: 5180
+MD5sum: be7255b21351cfab1b01ea01758b0bac
+SHA1: 734c23094d701c62c4c61dd98dc3d406c5e95abc
+SHA256: fec1297cc807ce0711cfd27028b48c83d830353753ff4ee62141b8a9abb970ae
+Section: libdevel
+Priority: extra
+Multi-Arch: same
+Description: Kodi platform support library -- development files
+ Kodi platform support library
+
+Package: libkodiplatform16
+Source: kodiplatform
+Version: 16.0.0-1~jessie
+Architecture: armhf
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 48
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libplatform1, libstdc++6 (>= 4.9), libtinyxml2.6.2
+Provides: libkodiplatform
+Filename: pool/main/k/kodi-platform/libkodiplatform16_16.0.0-1~jessie_armhf.deb
+Size: 9654
+MD5sum: 17288f4055776ca134fd21354cf545b7
+SHA1: a9ffc154b9b9ef23233e186e1d69493066513998
+SHA256: d89922ad92b8ea7e84426d8c1b29ebc43615d1b398ca2c85fb60684a7e32cf31
+Section: libs
+Priority: extra
+Multi-Arch: same
+Description: Kodi platform support library
+ Kodi platform support library
+
+Package: libpostproc53
+Source: ffmpeg
+Version: 10:2.6.5-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 121
+Pre-Depends: multiarch-support
+Depends: libavutil54, libc6 (>= 2.4)
+Conflicts: libpostproc-extra-52, libpostproc0, libpostproccvs51
+Replaces: libpostproccvs51
+Filename: pool/main/libp/libpostproc/libpostproc53_2.6.5-1_armhf.deb
+Size: 22062
+MD5sum: fb037d6bfeffd62804e040cb4cb0632c
+SHA1: a0933b84b4207a6f38a3a2812e75bcc52357d09b
+SHA256: f4ab1eb70930e0526b0d46b717f217adf0c96a855b203e6d1f061b361acefa23
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://ffmpeg.org/
+Description: postproc shared libraries
+ This package contains the FFmpeg video postprocessing shared library.
+
+Package: libsdl2-fbdev-dev
+Source: libsdl2
+Version: 2.0.2-FB-1~jessie
+Architecture: armhf
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Installed-Size: 3144
+Depends: libsdl2-odrobian-fbdev (= 2.0.2-FB-1~jessie), libasound2-dev, libdbus-1-dev, libudev-dev
+Conflicts: libsdl-1.3-dev, libsdl2-dev
+Replaces: libsdl-1.3-dev, libsdl2-dev
+Filename: pool/main/libs/libsdl2/libsdl2-fbdev-dev_2.0.2-FB-1~jessie_armhf.deb
+Size: 1036136
+MD5sum: 50533463416fa16067cd09314cead49c
+SHA1: 1d02c8d8395bc7673c1c29a7f1bc224c021293d3
+SHA256: e2072ed82fe07d27b113f2b8182a3dde4efad1313fc0665eb51b1c3ed4890cd6
+Section: libdevel
+Priority: optional
+Homepage: http://www.libsdl.org/
+Description: Simple DirectMedia Layer development files
+ SDL is a library that allows programs portable low level access to a video
+ framebuffer, audio output, mouse, and keyboard.
+ .
+ This package contains the files needed to compile and link programs which
+ use SDL.
+
+Package: libsdl2-odrobian
+Version: 2.0.4-1~jessie
+Architecture: armhf
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Installed-Size: 733
+Pre-Depends: multiarch-support
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.15), libpulse0 (>= 0.99.1), libx11-6 (>= 2:1.2.99.901), libxcursor1 (>> 1.1.2), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1, libxrandr2 (>= 2:1.2.99.3), libxss1, libxxf86vm1, libudev1, libdbus-1-3
+Conflicts: libsdl-1.3-0, libsdl2-2.0-0, libsdl2-odrobian-fbdev
+Replaces: libsdl-1.3-0, libsdl2-2.0-0, libsdl2-odrobian-fbdev
+Filename: pool/main/libs/libsdl2/libsdl2-odrobian_2.0.4-1~jessie_armhf.deb
+Size: 303888
+MD5sum: 95920349353202de3a5b827d6982848b
+SHA1: 6d3b44f8847212b777667da0db0c1136a14af3ba
+SHA256: a149c4f8bc891e8df651b44091bff4f6df3896dd81fcd90c99cb689bcac08743
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.libsdl.org/
+Description: Simple DirectMedia Layer
+ SDL is a library that allows programs portable low level access to
+ a video framebuffer, audio output, mouse, and keyboard.
+ .
+ This package contains the shared library, compiled with X11 graphics drivers and OSS, ALSA and PulseAudio sound drivers.
+
+Package: libsdl2-odrobian-dev
+Source: libsdl2
+Version: 2.0.4-1~jessie
+Architecture: armhf
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Installed-Size: 3713
+Depends: libsdl2-odrobian (= 2.0.4-1~jessie), libc6-dev, libgl1-mesa-dev
+Conflicts: libsdl-1.3-dev, libsdl2-dev, libsdl2-fbdev-dev
+Replaces: libsdl-1.3-dev, libsdl2-dev, libsdl2-fbdev-dev
+Filename: pool/main/libs/libsdl2/libsdl2-odrobian-dev_2.0.4-1~jessie_armhf.deb
+Size: 1162906
+MD5sum: b6775bc100d702aa920e9c10f27dc2ac
+SHA1: f3e66c67c1d9fea4e46880bf821927359710fe49
+SHA256: edab8d980f4db318f3528585dabe336caa4b1b7ff563ecc65de4fdc1a861b9c7
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.libsdl.org/
+Description: Simple DirectMedia Layer development files
+ SDL is a library that allows programs portable low level access to a video
+ framebuffer, audio output, mouse, and keyboard.
+ .
+ This package contains files needed if you wish to use the SDL library in your own programs.
+
+Package: libsdl2-odrobian-fbdev
+Source: libsdl2
+Version: 2.0.2-FB-1~jessie
+Architecture: armhf
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Installed-Size: 627
+Pre-Depends: multiarch-support
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.15), libpulse0 (>= 0.99.1)
+Conflicts: libsdl-1.3-0, libsdl2-2.0-0
+Replaces: libsdl-1.3-0, libsdl2-2.0-0
+Filename: pool/main/libs/libsdl2/libsdl2-odrobian-fbdev_2.0.2-FB-1~jessie_armhf.deb
+Size: 253872
+MD5sum: 134b5725a2ecc613ec42351daf1e3cff
+SHA1: d72fcf259996e01d1dad6cea38b2761fa4477f07
+SHA256: 2b6abe5985e1408a18df9216420c3064cefd116a0de2734442a82ac0cc50d1e8
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.libsdl.org/
+Description: Simple DirectMedia Layer
+ SDL is a library that allows programs portable low level access to
+ a video framebuffer, audio output, mouse, and keyboard.
+ .
+ This version of SDL is compiled with X11, caca and DirectFB graphics
+ drivers and OSS, ALSA, NAS and PulseAudio sound drivers.
+
+Package: libshairplay
+Version: 1.0-1~jessie
+Architecture: armhf
+Maintainer: Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 612
+Provides: libshairplay
+Filename: pool/main/libs/libshairplay/libshairplay_1.0-1~jessie_armhf.deb
+Size: 166940
+MD5sum: e85dd9063ff1bba832e8b0161ec4c23f
+SHA1: 161f016169ba48b8a31ac911b8eaf1fa8ec1ede0
+SHA256: a5eb87eed64d1ead861fde407894798cc7ee6ad4edea506ade197eb11570d089
+Section: video
+Priority: extra
+Description: libshairplay is a client library that emulates an airplay server
+
+Package: libswresample1
+Source: ffmpeg
+Version: 10:2.6.5-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 142
+Pre-Depends: multiarch-support
+Depends: libavutil54, libc6 (>= 2.4)
+Filename: pool/main/libs/libswresample/libswresample1_2.6.5-1_armhf.deb
+Size: 30592
+MD5sum: 5f8db1f63e214514a61376be3d509095
+SHA1: 82ff36e8743d895fc046ab0ce3b4369c11541979
+SHA256: 46117f3d52c51597c2dcc1bd84e703cb4b1cd2def24a6a042176472d7147d0c3
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://ffmpeg.org/
+Description: FFmpeg audio rescaling library
+ This is the audio scaling library from the FFmpeg project.
+ .
+ Please send me a better description.
+
+Package: libts-0.0-0
+Source: tslib
+Version: 1.0-12~jessie
+Architecture: armhf
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 127
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.7), tsconf
+Conflicts: libts0, tslib
+Replaces: libts0, tslib
+Provides: libts0, tslib
+Filename: pool/main/libt/libts/libts-0.0-0_1.0-12~jessie_armhf.deb
+Size: 26632
+MD5sum: 1baa650c3decf1099acb0adbc4c20df6
+SHA1: ecefab953396e38e0669418fc60838f1a52c24d7
+SHA256: e6c8706be789d7c5e4d89c6110901dccc11afd291af917b609e211117c533850
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://tslib.berlios.de/
+Description: touch screen library
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events. Examples of implemented
+ filters include jitter smoothing and the calibration transform.
+
+Package: libts-0.0-0-dbg
+Source: tslib
+Version: 1.0-12~jessie
+Architecture: armhf
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 319
+Depends: libts-0.0-0 (= 1.0-12~jessie), libts-bin (= 1.0-12~jessie)
+Filename: pool/main/libt/libts/libts-0.0-0-dbg_1.0-12~jessie_armhf.deb
+Size: 63216
+MD5sum: 00c73eb229fe398f016c6b2505ed0164
+SHA1: 147cf0f403de8a15720424fc67e2868ed0b9231d
+SHA256: 68dbbd9efa5d3f6e617e23d0f097b6aaeb64dd48546cc3e53cfade7c8a979bea
+Section: debug
+Priority: extra
+Homepage: http://tslib.berlios.de/
+Description: touch screen library debug symbols
+ Tslib is an abstraction layer for touchscreen panel events, as well
+ as a filter stack for the manipulation of those events.
+ .
+ This package contains the debug symbols.
+
+Package: libts-bin
+Source: tslib
+Version: 1.0-12~jessie
+Architecture: armhf
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 118
+Depends: libc6 (>= 2.4), libts-0.0-0 (>= 1.0)
+Filename: pool/main/libt/libts/libts-bin_1.0-12~jessie_armhf.deb
+Size: 29988
+MD5sum: b8e1db145fba12ffe5596bc3a397c241
+SHA1: 3d79133c15766cc93da63ba9cbeb3102b14d0f72
+SHA256: d5f246a176ee1ee8fa118c249fe8b7bac4f64e48fa3fa29dd807a41748364425
+Section: embedded
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://tslib.berlios.de/
+Description: touch screen library utilities
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events.
+ .
+ This package contains a few test programs like ts_calibrate that can
+ be useful when developing or testing application using touch screens.
+
+Package: libts-dev
+Source: tslib
+Version: 1.0-12~jessie
+Architecture: armhf
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 53
+Depends: libts-0.0-0 (= 1.0-12~jessie)
+Replaces: libts0
+Filename: pool/main/libt/libts/libts-dev_1.0-12~jessie_armhf.deb
+Size: 12842
+MD5sum: c030ec268525c66f2f88fb5dd1b287a8
+SHA1: 45b06e98316e3f60161aa42e9302c4d1353ededb
+SHA256: 6414d1ad9dcbb77f700718fd8662731485e1b0921f70e6dffaa71f934e7a1021
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://tslib.berlios.de/
+Description: touch screen library, development files
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events.
+ .
+ This package contains the static library and header files used in
+ development.
+
+Package: libx264-146
+Source: x264
+Version: 1.0-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 867
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.7)
+Filename: pool/main/libx/libx264/libx264-146_1.0-1_armhf.deb
+Size: 316412
+MD5sum: a0d71c0b4d4e6c84601d1d2e2924d151
+SHA1: 70390fe44ba104d8a6df2b06f132c92787ac74ed
+SHA256: a527b3fbf0a5c9f50e66d54941b56839deeeb66bd09d6a2d3a7e87cffa1875ea
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.videolan.org/developers/x264.html
+Description: x264 video coding library
+ libx264 is an advanced encoding library for creating H.264 (MPEG-4 AVC)
+ video streams.
+ .
+ This package contains the libx264 shared library.
+
+Package: libx265-51
+Source: x265
+Version: 1.6-1
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 643
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.1.1)
+Filename: pool/main/libx/libx265/libx265-51_1.6-1_armhf.deb
+Size: 282838
+MD5sum: 34ddff4bc8d2cfef2694c949ce216f01
+SHA1: 372e372a02da7cb3c40feddd64deb5a3fcea8c26
+SHA256: 5d9b76cc42fcd88c640b77ba71ca00378865fcc44c67ac9ab8dd63ccd55d7950
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://bitbucket.org/multicoreware/x265/wiki/Home
+Description: x265 video coding library
+ libx265 is an advanced encoding library for creating HEV/H.265 video
+ streams.
+ .
+ This package contains the libx265 shared library.
+
+Package: odrobian-retrogaming-arcade
+Version: 1.0-BETA-5
+Architecture: armhf
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Depends: retrogaming-default-cores, xboxdrv-odrobian, alsa-base, alsa-tools, alsa-utils, libalsaplayer0
+Suggests: retrogaming-mame-core
+Provides: odrobian-retrogaming-arcade
+Filename: pool/main/o/odrobian-retrogaming-arcade/odrobian-retrogaming-arcade_1.0-BETA-5_armhf.deb
+Size: 21065954
+MD5sum: e35217330002eca478a472f3bb621e78
+SHA1: 8ed3ae29e651d64d6d36590cfc63ab425e89b820
+SHA256: be0a229c45c85a5af3cfb631ed291a14cdd3c066fd8a2ccae6977f61c0ccb356
+Section: games
+Priority: extra
+Description: Odrobian RetroGaming Platform for emulation based on Mali-GPU hardware acceleration.
+
+Package: otter-browser
+Version: 0.9.10-1~jessie
+Architecture: armhf
+Maintainer: Rog131 <samrog131@hotmail.com>
+Installed-Size: 7630
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libqt5core5a (>= 5.2.0~alpha1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0), libqt5multimedia5 (>= 5.2.0), libqt5network5 (>= 5.3.0), libqt5printsupport5 (>= 5.0.2), libqt5script5 (>= 5.0.2), libqt5webkit5 (>= 5.2.0), libqt5widgets5 (>= 5.3.0), libqt5xmlpatterns5 (>= 5.0.2), libstdc++6 (>= 4.9)
+Recommends: gstreamer0.10-plugins-base, gstreamer0.10-plugins-good
+Filename: pool/main/o/otter-browser/otter-browser_0.9.10-1~jessie_armhf.deb
+Size: 1955208
+MD5sum: 583d0f3d51e871c569ff5efc2325d420
+SHA1: a49efb0d3690470944635e2e486c5074ec223320
+SHA256: 05811352013bd02e9006d1ac258db6749277e9c13a6c5f1d7b5f49f50e9b9fb2
+Section: web
+Priority: extra
+Homepage: http://otter-browser.org/
+Description: Web browser controlled by the user, not vice-versa
+ Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI
+ using Qt5
+
+Package: python-libcec
+Source: libcec
+Version: 3.0.1-1~jessie
+Architecture: armhf
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Installed-Size: 452
+Depends: libcec3 (= 3.0.1-1~jessie)
+Filename: pool/main/libc/libcec/python-libcec_3.0.1-1~jessie_armhf.deb
+Size: 138910
+MD5sum: 582db5ea08e24dc8373d3e1c6aa8ef2b
+SHA1: 95a5079649deb11843f3852540ad64ad10617f93
+SHA256: 4284a2699966dc8b542bb9171c7165fffe68ed6bca6b7af0e771a6f074d87b74
+Section: python
+Priority: optional
+Homepage: http://libcec.pulse-eight.com/
+Description: Python bindings for libCEC
+ This library provides Python bindings for libCEC.
+ .
+ This package provides Python bindings for libCEC.
+
+Package: python-menu-odrobian
+Source: mate-menu
+Version: 5.6.8-1
+Architecture: all
+Maintainer: Saleem (Odrobian Repository) <smooth0sal@gmail.com>
+Installed-Size: 592
+Depends: dconf-gsettings-backend | gsettings-backend, python (>= 2.7), python (<< 2.8), python-pkg-resources, python-xlib, python-xdg
+Filename: pool/main/p/python-menu-odrobian/python-menu-odrobian_5.6.8-1_all.deb
+Size: 52076
+MD5sum: 885a1aa40e3e44760b0d6dc362865589
+SHA1: d0d911c757b7b95a5a71d953f14d6698663c9ad2
+SHA256: 762e658e78bdd250500bf8141d94fcabd9f2bf925aaaa4197d3eb21073b8d3e4
+Section: python
+Priority: optional
+Description: An advanced menu for MATE. Supports filtering, favorites, au
+
+Package: retroarch-fbdev
+Version: 1.2.2-2~jessie
+Architecture: armhf
+Maintainer: Hunter Kaller (hizzlekizzle) <hunter_kaller@yahoo.com>
+Installed-Size: 1647
+Depends: libasound2 (>= 1.0.18), libc6 (>= 2.15), libfreetype6 (>= 2.2.1), libpulse0 (>= 0.99.1), libsdl2-odrobian-fbdev (>= 2.0.0), libudev1 (>= 183), zlib1g (>= 1:1.1.4), fonts-dejavu-core, python3
+Suggests: retroarch-joypad-autoconfig, libretro-common-shaders, libretro-common-overlays, retroarch-assets
+Conflicts: libsdl2-2.0-0
+Replaces: ssnes
+Filename: pool/main/r/retroarch/retroarch-fbdev_1.2.2-2~jessie_armhf.deb
+Size: 512736
+MD5sum: 16d4904c293277d976692e2b581672a9
+SHA1: 344acb67ee4c614898d4f0745840a29d729ac216
+SHA256: d98aade7320bb59d375a4d5e73fe6d004a96d19a40baec7c8726efd31f4ba0ef
+Section: otherosfs
+Priority: extra
+Homepage: http://www.libretro.com/
+Description: Simple frontend for the libretro library
+ RetroArch is an open source, multi-platform frontend for the libretro API.
+ It can be used as a modular multi emulator system, game engine, media player
+ and 3D technical demonstration. These features are available through
+ libretro cores.
+ .
+ It provides a simple built-in GUI, the RGUI.
+
+Package: retroarch-odrobian
+Version: 1.3.1-1~jessie
+Architecture: armhf
+Maintainer: Hunter Kaller (hizzlekizzle) <hunter_kaller@yahoo.com>
+Installed-Size: 2262
+Depends: libasound2 (>= 1.0.18), libc6 (>= 2.15), libdrm2 (>= 2.4.17), libfreetype6 (>= 2.2.1), libgbm1 (>= 8.1~0), libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libpython3.4 (>= 3.4.2~rc1), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.16), libx11-6, libx11-xcb1, libxcb1, libxext6, libxinerama1, libxkbcommon0 (>= 0.2.0), libxv1, libxxf86vm1, zlib1g (>= 1:1.1.4), fonts-dejavu-core, python3
+Suggests: retroarch-joypad-autoconfig, libretro-common-shaders, libretro-common-overlays, retroarch-assets
+Replaces: ssnes
+Filename: pool/main/r/retroarch/retroarch-odrobian_1.3.1-1~jessie_armhf.deb
+Size: 789104
+MD5sum: df731b52ad5b6eae01ec4ab8d7138611
+SHA1: 47f9cfa62daba858fef097e41651cda2b3369bac
+SHA256: 7bc014ed846169c27d2c98672aeb5b684b9d834914121ef3663aa9b2ae44f753
+Section: otherosfs
+Priority: extra
+Homepage: http://www.libretro.com/
+Description: Simple frontend for the libretro library
+ RetroArch is an open source, multi-platform frontend for the libretro API.
+ It can be used as a modular multi emulator system, game engine, media player
+ and 3D technical demonstration. These features are available through
+ libretro cores.
+ .
+ It provides a simple built-in GUI, the RGUI.
+
+Package: synapse
+Version: 0.2.99.2-1~jessie
+Architecture: armhf
+Maintainer: Tomasz Buchert <tomasz@debian.org>
+Installed-Size: 1659
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.37.5), libgtk-3-0 (>= 3.0.0), libjson-glib-1.0-0 (>= 0.13.2), libkeybinder-3.0-0 (>= 0.3.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libzeitgeist-2.0-0 (>= 0.9.9)
+Recommends: pastebinit, zeitgeist (>= 0.9.14) | zeitgeist-core (>= 0.9.14)
+Filename: pool/main/s/synapse/synapse_0.2.99.2-1~jessie_armhf.deb
+Size: 366636
+MD5sum: 2cfef3ffab7143f281f4845ee61c6139
+SHA1: c1d9b54d1036db37242162d246e9763131b34272
+SHA256: 8abba5a72399b134aa34018fa006b39878bfb2f3e6e55ac6dffa3ff2da3068d2
+Section: utils
+Priority: optional
+Homepage: https://launchpad.net/synapse-project
+Description: semantic file launcher
+ Synapse is a graphical launcher enabling you to start applications and also
+ to quickly find and access relevant documents and files (by making use of the
+ Zeitgeist engine).
+
+Package: trojita
+Version: 0.5-1~jessie
+Architecture: armhf
+Maintainer: Saleem (ODROBIAN Repository) <smooth0sal@gmail.com>
+Installed-Size: 2840
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libqt5core5a (>= 5.3.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.3.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5webkit5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~rc1), libstdc++6 (>= 4.2.1), zlib1g (>= 1:1.1.4), libqt5sql5-sqlite
+Provides: trojita
+Filename: pool/main/t/trojita/trojita_0.5-1~jessie_armhf.deb
+Size: 996038
+MD5sum: e38c04b42f191807b3481f336642460c
+SHA1: 98a5de6473d3e295bb327c5ee8213611f881c995
+SHA256: 08feb692c2ccad69fdd9b50fc389ede4e863b9bdf44f196bb772f526a92f98bc
+Section: mail
+Priority: extra
+Description: Trojita is a fast Qt IMAP e-mail client.
+ Qt IMAP e-mail client
+
+Package: tsconf
+Source: tslib
+Version: 1.0-12~jessie
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 50
+Replaces: libts-0.0-0 (<= 1.0-6)
+Filename: pool/main/libt/libts/tsconf_1.0-12~jessie_all.deb
+Size: 14666
+MD5sum: a4aeb03d39c865adfadaf3553b95661c
+SHA1: 84a1fb5cc71529f212238a989fbe485289d83beb
+SHA256: a951caeb7a305d86fb9eb998f10e7bf215fcfdcd9ba4eaf55e68e545d051192b
+Section: embedded
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://tslib.berlios.de/
+Description: touch screen library common files
+ Tslib is an abstraction layer for touchscreen panel events, as well
+ as a filter stack for the manipulation of those events.
+ .
+ This package contains the common files for the shared
+ library.
+
+Package: tvheadend
+Version: 4.1-1528~ge3c6b41
+Architecture: armhf
+Maintainer: Adam Sutton <aps@tvheadend.org>
+Installed-Size: 19340
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.15), libdbus-1-3 (>= 1.0.2), libssl1.0.0 (>= 1.0.0), liburiparser1 (>= 0.6.0), zlib1g (>= 1:1.1.4)
+Recommends: xmltv-util
+Enhances: showtime
+Replaces: hts-tvheadend
+Filename: pool/main/t/tvheadend/tvheadend_4.1-1528~ge3c6b41_armhf.deb
+Size: 6302590
+MD5sum: 9a4ac867fcf6633d0c5102b0422fb044
+SHA1: 30dfd29887db53f40980728d524210bd6a36780a
+SHA256: b15849150e2f65ba2620394b2cdfdce232d97f518b316ecaa8fd94f1b45f44db
+Section: video
+Priority: extra
+Homepage: https://tvheadend.org
+Description: Tvheadend
+ Tvheadend is a TV streaming server and digital video recorder.
+   - supports a variety of inputs (DVB-S(2)/T(2)/C, IPTV, SAT>IP, HDHR)
+   - supports a variety of clients (Showtime, Kodi, VLC)
+
