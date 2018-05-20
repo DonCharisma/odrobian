@@ -15,6 +15,20 @@ More info on Odrobian - https://forum.odroid.com/viewtopic.php?t=18771
 
 Due to github filesize limits, some images have been split in a .rar container, and you will therefore need to use rar software in order to obtain the orginal .xz file.
 
+# apt sources
+
+You'll need to update your apt sources if you want to use this directory. If you want to upgrade from Jessie -> Stretch , then the "[trusted=yes]" is required. You can change http to https, but do ensure apt-transport-https is installed first.
+
+My old /etc/apt/sources.list.d/odrobian-s805.list
+
+deb http://oph.mdrjr.net/odrobian/ odroid main s805
+deb http://oph.mdrjr.net/odrobian/ jessie main s805
+
+My new one :
+
+deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ odroid main s805
+deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ jessie main s805
+
 # Thanks
 
 Thanks to github for (hopefully) allowing this repsository to be hosted here. Appologies for the large files, but - 1. they are static so should only have to stored once, and 2. they are unlikely to be downloaded all that often, so shouldn't be a bandwidth consideration.
