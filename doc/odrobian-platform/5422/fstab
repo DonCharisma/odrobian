@@ -1,0 +1,2 @@
+UUID=f6939b56-f9a7-4815-bac3-aca25235ee14  /              ext4    defaults,noatime                          0 1
+UUID=5F78-D927                             /media/boot    vfat    defaults,rw,owner,flush,umask=000         0 0
