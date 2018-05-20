@@ -31,6 +31,8 @@ deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ 
 
 deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ jessie main s805
 
+( OR, just add them to your /etc/apt/sources.list file )
+
 # Thanks
 
 Thanks to github for (hopefully) allowing this repsository to be hosted here. Appologies for the large files, but - 1. they are static so should only have to stored once, and 2. they are unlikely to be downloaded all that often, so shouldn't be a bandwidth consideration.
