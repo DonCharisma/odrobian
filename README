@@ -1,0 +1,23 @@
+========================
+	Welcome!	
+========================
+
+ODROBIAN is a pure and lightwieght Debian community distribution built specifically for ODROID single board computers.
+
+--- Debian Jessie for ODROIDs
+
+	SOC: Exynos  5422 --> ODROID-XU3/XU4
+	SOC: AMLogic s805 --> ODROID-C1/C1+/C0
+	SOC: AMLogic s905 --> ODROID-C2
+
+--- Latest version
+
+	ODROBIAN Jessie 2.0
+
+--- Directories
+
+	apt-sources	APT source lists.
+	doc		ODROBIAN Documentation.
+	dists           Packages list information.
+	images		Download OS images for ODROIDs.
+	pool		Download packages manually.
