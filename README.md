@@ -17,7 +17,7 @@ Due to github filesize limits, some images have been split in a .rar container, 
 
 # apt sources
 
-You'll need to update your apt sources if you want to use this directory. If you want to upgrade from Jessie -> Stretch , then the "[trusted=yes]" is required. You can change http to https, but do ensure apt-transport-https is installed first.
+You'll need to update your apt sources if you want to use this github repository for deb packages hosted here. If you want to upgrade from Jessie -> Stretch , then the "[trusted=yes]" is required (something to do with SHA1 being removed in Stretch). You can also change http to https (if you want), but do ensure apt-transport-https is installed first.
 
 My old /etc/apt/sources.list.d/odrobian-s805.list
 
@@ -43,4 +43,4 @@ And, of course, thanks to the original maintainer and helpers, for providing Odr
 
 /pool/main/c/chromium-browser-odrobian/chromium-browser-odrobian_48.0.2564.82-0ubuntu0.15.04.1.1193_armhf.deb
 
-The above file also had to be split with rar
+The above file also had to be split with rar, as it's bigger than github file
