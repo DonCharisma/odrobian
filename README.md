@@ -21,7 +21,7 @@ Refer to the ./images folder for Odrobian images
 
 # apt sources
 
-You'll need to update your apt sources if you want to use this github repository for deb packages hosted here (apt-get update, apt-get install). If you want to upgrade from Jessie -> Stretch , then the "[trusted=yes]" is required (something to do with SHA1 being removed in Stretch). You can also change http to https (if you want), but do ensure apt-transport-https is installed first.
+You'll need to update your apt sources if you want to use this github repository for deb packages hosted here (apt-get update, apt-get install). If you want to upgrade from Jessie -> Stretch , then the "[trusted=yes]" is required (something to do with SHA1 being removed in apt in Stretch). You can also change http to https (if you want), but do ensure apt-transport-https is installed first.
 
 My old /etc/apt/sources.list.d/odrobian-s805.list
 
