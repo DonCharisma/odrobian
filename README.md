@@ -42,9 +42,3 @@ deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ 
 Thanks to github for (hopefully) allowing this repsository to be hosted here. Appologies for the large files, but - 1. they are static so should only have to stored once, and 2. they are unlikely to be downloaded all that often, so shouldn't be a bandwidth consideration.
 
 And, of course, thanks to the original maintainer and helpers, for providing Odrobian for us.
-
-# PS
-
-/pool/main/c/chromium-browser-odrobian/chromium-browser-odrobian_48.0.2564.82-0ubuntu0.15.04.1.1193_armhf.deb
-
-The above file also had to be split with rar, as it's bigger than github file
