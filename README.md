@@ -9,13 +9,13 @@ I have two Odroid C1 boards, recently went to update software and discovered Odr
 
 I, and I imagine some others may (still) want to use this software, so I have retrieved as best I can the latest files from WayBackMachine (archive.org) and uploaded them here. ( Using https://github.com/hartator/wayback-machine-downloader , along with some hours of filling in gaps with manual wget commands and a nice wayback-downloader script that uses wget - https://gist.github.com/lazanet/872f88c9874e4a7a78fd )
 
-Of particular use is the OS images, and the "oh-utils", and the documentation. Oh-utils can be used to control CPU speed, infra-red, zram and some other stuff.
+Of particular use is the OS images, and the "oh-utils", and the documentation. Oh-utils can be used to control CPU speed, infra-red, zram and some other stuff. And, there's quite a lot of packages and enhancements for Debian on Odroid.
 
 More info on Odrobian - https://forum.odroid.com/viewtopic.php?t=18771
 
 # Odrobian OS Images
 
-Due to github filesize limits, some images have been split into a .rar container, and you will therefore need to use rar software in order to obtain the orginal .xz file. ( rar and unrar packages are available free from the Debian repository )
+Due to github filesize limits, some images have been split into a multiple .rar files, and you will therefore need to use rar software in order to extract the orginal .xz file. ( rar and unrar packages are available free from the Debian repository using apt-get )
 
 Refer to the ./images folder for Odrobian images
 
