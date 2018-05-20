@@ -27,6 +27,7 @@ deb http://oph.mdrjr.net/odrobian/ jessie main s805
 My new one :
 
 deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ odroid main s805
+
 deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ jessie main s805
 
 # Thanks
