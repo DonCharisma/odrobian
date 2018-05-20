@@ -1,0 +1,2 @@
+UUID=f6939b56-f9a7-4815-bac3-aca25235ee14  /              ext4    errors=remount-ro,rw,noatime,nodiratime   0 1
+UUID=6D25-B6C2                             /media/boot    vfat    defaults,rw,owner,flush,umask=000         0 0
