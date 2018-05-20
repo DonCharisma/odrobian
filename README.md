@@ -5,9 +5,9 @@ Disclaimer - Please note I won't be updating or maintaining this repository, if 
 
 # Why revive the Odrobian repository ?
 
-I have two Odroid C1 boards, recently went to update software and discovered Odroid had deleted the Odrobian repository, presumably because C1 is now "old" and they don't want to support it anymore. It appears also that the Odrobian package maintainer has "disappeared", which is sad as it's a good project.
+I have two Odroid C1 boards, recently went to update software and discovered Odroid had deleted the Odrobian repository. It seems that the Odrobian package maintainer has "disappeared", which is sad as it's a good project. So ...
 
-I, and I imagine some others may want to use this software, so I have retrieved as best I can the latest files from WayBackMachine (archive.org) and uploaded them here. ( Using https://github.com/hartator/wayback-machine-downloader , along with some hours of filling in gaps with manual wget commands and a nice wayback-downloader script that uses wget - https://gist.github.com/lazanet/872f88c9874e4a7a78fd )
+I, and I imagine some others may (still) want to use this software, so I have retrieved as best I can the latest files from WayBackMachine (archive.org) and uploaded them here. ( Using https://github.com/hartator/wayback-machine-downloader , along with some hours of filling in gaps with manual wget commands and a nice wayback-downloader script that uses wget - https://gist.github.com/lazanet/872f88c9874e4a7a78fd )
 
 Of particular use is the OS images, and the "oh-utils", and the documentation. Oh-utils can be used to control CPU speed, infra-red, zram and some other stuff.
 
