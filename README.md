@@ -37,6 +37,12 @@ deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ 
 
 ( OR, just add them to your /etc/apt/sources.list file )
 
+I wasn't able to get rid of this warning, but I don't think it prevents the repository being used (as it's a warning) :
+
+```
+W: GPG error: https://raw.githubusercontent.com/doncharisma/odrobian/master odroid InRelease: The following signatures were invalid: F3230DD84F39A606727D3D5D1B881FD777439C3B
+```
+
 # Thanks
 
 Thanks to github for (hopefully) allowing this repsository to be hosted here. Appologies for the large files, but - 1. they are static so should only have to stored once, and 2. they are unlikely to be downloaded all that often, so shouldn't be a bandwidth consideration.
