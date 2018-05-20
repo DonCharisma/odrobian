@@ -21,15 +21,19 @@ You'll need to update your apt sources if you want to use this github repository
 
 My old /etc/apt/sources.list.d/odrobian-s805.list
 
-```deb http://oph.mdrjr.net/odrobian/ odroid main s805
+```
+deb http://oph.mdrjr.net/odrobian/ odroid main s805
 
-deb http://oph.mdrjr.net/odrobian/ jessie main s805```
+deb http://oph.mdrjr.net/odrobian/ jessie main s805
+```
 
 My new one :
 
-```deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ odroid main s805
+```
+deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ odroid main s805
 
-deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ jessie main s805```
+deb [trusted=yes] http://raw.githubusercontent.com/doncharisma/odrobian/master/ jessie main s805
+```
 
 ( OR, just add them to your /etc/apt/sources.list file )
 
