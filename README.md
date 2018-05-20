@@ -49,7 +49,7 @@ W: GPG error: https://raw.githubusercontent.com/doncharisma/odrobian/master odro
 
 # Where to now ?
 
-Armbian will run on Odroid C1, so that could be worth checking out ... Have fun ...
+**Armbian** will run on Odroid C1, so that could be worth checking out ... Have fun ...
 
 # Thanks
 
