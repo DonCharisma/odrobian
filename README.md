@@ -13,7 +13,7 @@ More info on Odrobian - https://forum.odroid.com/viewtopic.php?t=18771
 
 # Odrobian OS Images
 
-Due to github filesize limits, images have been split in a .rar container, and you will therefore need to use rar software in order to obtain the orginal .xz file.
+Due to github filesize limits, some images have been split in a .rar container, and you will therefore need to use rar software in order to obtain the orginal .xz file.
 
 # Thanks
 
