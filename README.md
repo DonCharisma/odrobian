@@ -1,7 +1,7 @@
 # odrobian
 Save of Odroid Odrobian repository from WayBackMachine
 
-Disclaimer - Please note I won't be updating or maintaining this repository, if you want that then please feel free to fork, or create your own. I won't be able to answer any questions either, as I'm neither the maintainer, nor an expert on any of this.
+Disclaimer - I won't be updating or maintaining this repository, if you want that then please feel free to fork, or create your own. I won't be able to answer any questions either, as I'm neither the maintainer or creator, nor an expert on any of this.
 
 # Why rescue the Odrobian repository ?
 
