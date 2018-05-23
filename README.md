@@ -53,6 +53,8 @@ W: GPG error: https://raw.githubusercontent.com/doncharisma/odrobian/master odro
 
 # Where to now ?
 
+XeoSal has some Odrobian scripts on Github - https://github.com/XeoSal/odrobian-utility
+
 **Armbian** will run on Odroid C1, so that could be worth checking out ... Have fun ...
 
 # Thanks
