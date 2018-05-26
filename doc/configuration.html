@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <title>Advice &amp; Tips</title>
+</head>
+<body>
+
+<h1>Advice &amp; Tips</h1>
+
+<p>Please follow this advice to setup your Debian system perfectly and for adapting it to your needs.</p>
+
+<h3>Timezone, location &amp; locales</h3>
+
+<p>The time &amp; date should be auto-updated by the Debian NTP service each time you boot the device up, in order to set your timezone and location just do this, open a terminal (Ctrl + Alt + T):</p>
+
+<pre>
+<code>	odroid:$ sudo dpkg-reconfigure tzdata</code>
+</pre>
+
+<p>You may also want to set the locale configurations according to your native language with:</p>
+
+<pre>
+<code>
+	odroid:$ sudo dpkg-reconfigure locales
+	</code>
+</pre>
+
+<h3>Enable Logical 2GB RAM for S805</h3>
+
+<p>zRam is a code inside kernel, that once activated, creates RAM based block devices (named /dev/zramX) which act as 4 swap spaces each one is handled by a single core, but are compressed and stored in memory (will never use SD space but only the dedicated RAM), allowing very fast I/O and virtually increasing the amount of memory available before the system starts swapping to the storage swap if available (in case you wish to create an additional swap storage on SD card or USB disks) for heavy multitasking.</p>
+
+<pre>
+<code>
+	Make sure you have ODROBIAN Hook:
+	odroid:$ sudo -s
+	odroid:# apt-get update &amp;&amp; apt-get install oh-utils
+	
+	Enable ZRAM during boot process (Logical 2GB RAM):
+	odroid:$ sudo oh --enable-zram
+	
+	No ZRAM during boot process (Stock 1GB RAM):
+	odroid:$ sudo oh --disable-zram
+	
+	Both commands require restarting your device.
+</code>
+</pre>
+ 
+ <div>So, it's like converting a little CPU power out of each core to a real dedicated memory making use of compression mechanism for the data stored in memory blocks logically increasing the C1's RAM from 1GB up-to 2GB. You can also add about 500MB (it will almost never be used) as additional storage swap on SD card or whatever, you will be amazed of how fast and responsive your C1 can be with this set-up beside the 4 ZRAM (each one is about 512MB in size as a total of 2GB) swaps enabled.</div>
+
+<h3>Boot into Console (Disable X11)</h3>
+
+<p>You can disable the display manager to boot directly into TTY1 console instead of GUI easily with a simple command:</p>
+
+<pre>
+<code>
+	Make sure you have ODROBIAN Hook:
+	odroid:$ sudo -s
+	odroid:# apt-get update &amp;&amp; apt-get install oh-utils
+	
+	Usage:
+	odroid:# oh --disable-lightdm
+	odroid:# oh --enable-lightdm (this will enable automatically booting to X11 again)
+</code>
+</pre>
+
+<p>If you disable booting to X11, you can start GUI manually from console with:</p>
+
+<pre>
+<code>
+	odroid:$ startx
+</code></pre>
+
+<h3>Firmware Drivers (linux, realtek, ralink, etc)</h3>
+
+<p>You can install these packages from Debian official repositories already, they are necessary acting as drivers for certain peripherals like WiFi dongles to work (decide for yourself if you need them):</p>
+
+<pre>
+<code>
+	odroid:$ sudo apt-get install firmware-*
+
+	(*) = Anything You Choose
+</code>
+</pre>
+
+<p>Here's a list of the most famous firmware packages that you might need:</p>
+
+ <ul type="disc">
+  <li>firmware-linux</li>
+  <ul style="list-style-type:circle">
+  <li>firmware-linux-free</li>
+  <li>firmware-linux-nonfree</li>
+  </ul>
+  <li>firmware-realtek</li>
+  <li>firmware-ralink</li>
+  <li>firmware-atheros</li>
+  <li>firmware-samsung</li>
+</ul> 
+
+<p>Please note that (firmware-linux-free, firmware-linux-nonfree and firmware-realtek) are all installed by default starting from ODROBIAN 2.0 release.</p>
+
+<h3>Skip Login  Screen (Auto-Start MATE Desktop)</h3>
+
+<p>Here's how to make odrobian auto-start the MATE desktop without going into the login screen, open up a terminal inside the desktop (Ctrl + Alt + T):</p>
+
+<pre>
+<code>
+	odroid:$ sudo pluma /etc/lightdm/lightdm.conf
+</code>
+</pre>
+
+<p>Select all the text inside the file (Ctrl + A) and replace it with this:</p>
+
+<pre>
+<code>
+	[SeatDefaults]
+	autologin-user=odroid
+	autologin-user-timeout=0
+</code>
+</pre>
+
+<p>After that restart your board and it will always auto-login into the session that you were running at last (in this case it will always be MATE). If you wish you can also choose to auto-start Kodi instead using this way.<p/>
+
+
+<h2>Other directories</h2>
+
+<table border="0" summary="Other directories">
+<tr><td><a href="https://web.archive.org/web/20170501190602/http://oph.mdrjr.net/odrobian/">index</a></td><td style="padding-left:15px;">Homepage.</td></tr>
+<tr><td><a href="https://web.archive.org/web/20170501190602/http://oph.mdrjr.net/odrobian/doc/#README">doc</a></td><td style="padding-left:15px;">Documentation.</td></tr>
+</table>
+
+</body>
+</html>
