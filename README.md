@@ -55,7 +55,23 @@ W: GPG error: https://raw.githubusercontent.com/doncharisma/odrobian/master odro
 
 XeoSal has some Odrobian scripts on Github - https://github.com/XeoSal/odrobian-utility
 
-**Armbian** will run on Odroid C1, so that could be worth checking out ... Have fun ...
+**Armbian** will run on Odroid C1, so that could be worth checking out ... 
+
+ZRam on Armbian Jessie (Ordriod C1) :
+```
+wget http://raw.githubusercontent.com/doncharisma/odrobian/master/pool/s805/s/s805-zram/s805-zram_1.0-1_armhf.deb
+
+dpkg -i s805-zram_1.0-1_armhf.deb
+
+# comment out /var/swap line in /etc/fstab
+
+enable-zram
+sync
+reboot
+# to check
+free -m
+swapon -s
+```
 
 # Thanks
 
