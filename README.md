@@ -51,7 +51,7 @@ I wasn't able to get rid of this warning, but I don't think it prevents the repo
 W: GPG error: https://raw.githubusercontent.com/doncharisma/odrobian/master odroid InRelease: The following signatures were invalid: F3230DD84F39A606727D3D5D1B881FD777439C3B
 ```
 
-*** Please note the /sources *.list files are, erm, wrong (because they point to the old repository), so you may have to manually edit the files after for instance installing "odrobian-platform-s805" ***
+*** Please note the files in /sources/*.list are, erm, wrong (because the deb entries point to the old repository), so you may have to manually edit the files after for instance installing "odrobian-platform-s805" ***
 
 # Where to now ?
 
