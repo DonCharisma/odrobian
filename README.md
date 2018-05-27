@@ -77,6 +77,10 @@ swapon -s
 
 ( https://forum.odroid.com/viewtopic.php?f=112&t=18226 )
 
+And lastly, mdrjr has a utility set for Odroid :
+
+https://github.com/mdrjr/odroid-utility
+
 # Thanks
 
 Thanks to github for (hopefully) allowing this repository to be hosted here. Apologies for the large files, but - 1. they are static so should only have to stored once, and 2. they are unlikely to be downloaded all that often, so shouldn't be a bandwidth consideration.
